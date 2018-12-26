@@ -1,15 +1,16 @@
 package code;
 
 import java.util.Comparator;
+import java.util.List;
 import java.util.PriorityQueue;
 
 /*
- * 22. Generate Parentheses
- * 题意：正确括号组合的
- * 难度：Medium
- * 分类：String, Backtracking
- * 思路：回溯法的典型题目，按选优条件向前搜索，达到目标后就退回一步或返回
- * 注意：递归法别忘了两块的拼接，例如n=4时，可以由2，2拼起来作为答案
+ * 23. Merge k Sorted Lists
+ * 题意：K个有序链表合并
+ * 难度：Hard
+ * 分类：Linked List, Divide and Conquer, Heap
+ * 思路：优先队列或分治方法
+ * 注意：优先队列如何定义比较方法
  */
 public class lc23 {
     public class ListNode {
@@ -45,4 +46,44 @@ public class lc23 {
         }
         return head.next;
     }
+
+    public ListNode mergeKLists2(ListNode[] lists) {
+        if (lists==null||lists.length==0) return null;
+        return Partition(lists,0,lists.length-1);
+    }
+
+    public ListNode Partition(ListNode[] lists, int start, int end){
+        if(end-start==0)
+            return lists[end];
+        else{
+            int mid = (start+end)/2;
+            ListNode l1 = Partition(lists,start,mid);
+            ListNode l2 = Partition(lists,mid+1,end);
+            return Merge2List(l1,l2);
+        }
+    }
+
+    public ListNode Merge2List(ListNode ln1, ListNode ln2){
+        ListNode res = new ListNode(0);
+        ListNode head = res;
+        while(ln1!=null && ln2!=null){
+            if(ln1.val<ln2.val){
+                head.next = ln1;
+                head = head.next;
+                ln1 = ln1.next;
+            }else {
+                head.next = ln2;
+                head = head.next;
+                ln2 = ln2.next;
+            }
+        }
+        if(ln1!=null){
+            head.next = ln1;
+        }
+        if(ln2!=null){
+            head.next = ln2;
+        }
+        return res.next;
+    }
+
 }

@@ -2,8 +2,8 @@ package code;
 
 /*
  * 31. Search in Rotated Sorted Array
- * 题意：Longest Valid Parentheses
- * 难度：Hard
+ * 题意：在翻转有序数组中查找指定数
+ * 难度：Medium
  * 分类：Array, Binary Search
  * 思路：二分查找的思路，多了一步判断，判断哪部分有序，是否在这部分中
  * Tips：注意边界判断，是否有等号

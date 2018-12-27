@@ -3,7 +3,7 @@ package code;
 import java.util.Stack;
 
 /*
- * 31. Longest Valid Parentheses
+ * 32. Longest Valid Parentheses
  * 题意：最长有效子串
  * 难度：Hard
  * 分类：Dynamic Programming, String

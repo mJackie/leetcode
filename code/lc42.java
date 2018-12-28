@@ -4,7 +4,7 @@ package code;
  * 题意：能盛多少水
  * 难度：Hard
  * 分类：Array, Two Pointers, Stack
- * 思路：三种方法，DP先求出来每个位置的maxleft,maxright，再遍历一遍;两个指针，类似lc11题的思路;用栈数据结构;
+ * 思路：三种方法:1.DP先求出来每个位置的maxleft,maxright，再遍历一遍;2.两个指针，类似lc11题的思路;3.用栈数据结构;
  * Tips：
  */
 public class lc42 {

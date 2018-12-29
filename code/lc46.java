@@ -8,7 +8,7 @@ import java.util.List;
  * 题意：全排列
  * 难度：Medium
  * 分类：Backtracking
- * 思路：典型的回溯题,注意判断下相同元素重复添加,和lc39做比较
+ * 思路：典型的回溯题,注意判断下相同元素重复添加,和lc39,lc78做比较
  */
 public class lc46 {
     public static void main(String[] args) {

@@ -10,7 +10,7 @@ import java.util.List;
  * 分类：Array, Backtracking
  * 思路：回溯法
  * Tips：向res添加答案时注意要new一个新的List,否则后续循环的操作会影响res中的L; 设置一个start标志，记录上次数组循环到哪了,防止重复集合。
- * 和lc46做比较，46是排列组合，所以不需要start标志，start标志是为了防止相同元素的组合排列不同而当做了另一种
+ * 和lc46,lc78做比较，46是排列组合，所以不需要start标志，start标志是为了防止相同元素的组合排列不同而当做了另一种
  */
 public class lc39 {
     public static void main(String[] args) {

@@ -1,4 +1,7 @@
 package code;
+
+import java.util.Stack;
+
 /*
  * 42. Trapping Rain Water
  * 题意：能盛多少水
@@ -11,6 +14,7 @@ public class lc42 {
     public static void main(String[] args) {
         int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(trap(height));
+        System.out.println(trap2(height));
     }
     public static int trap(int[] height) {
         if(height.length<3)
@@ -39,5 +43,24 @@ public class lc42 {
             }
         }
         return res;
+    }
+
+    public static int trap2(int[] A) {
+        //栈方法
+        if (A==null) return 0;
+        Stack<Integer> s = new Stack<Integer>();
+        int i = 0, maxWater = 0, maxBotWater = 0;
+        while (i < A.length){
+            if (s.isEmpty() || A[i]<=A[s.peek()]){
+                s.push(i++);
+            }
+            else {
+                int bot = s.pop();
+                maxBotWater = s.isEmpty()? // empty means no il
+                        0:(Math.min(A[s.peek()],A[i])-A[bot])*(i-s.peek()-1);
+                maxWater += maxBotWater;
+            }
+        }
+        return maxWater;
     }
 }

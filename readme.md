@@ -23,10 +23,10 @@ Welcome to improve this project with me.*
 
 | \# | Problems | Difficulty | Solution |
 |----|----------|-----------|------|
-| 001  | [Two_Sum](https://leetcode.com/problems/two-sum/)  | Easy | [Java](./src/lc1.java)
-| 002  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |Medium| [Java](./src/lc2.java)
-| 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Java]
-| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [Java]
+| 001  | [Two_Sum](https://leetcode.com/problems/two-sum/)  | Easy | [Java](./code/lc1.java)
+| 002  | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) |Medium| [Java](./code/lc2.java)
+| 003  | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [Java](./code/lc3.java)
+| 004  | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | Hard | [Java](./code/lc4.java)
 | 005  | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |Medium|[Java]
 | 010  | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | Hard | [Java]
 | 011  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |Medium| [Java]

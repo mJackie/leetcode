@@ -8,21 +8,34 @@ package code;
  * Tips：思路记一下，自己想不起来
  */
 public class lc105 {
-    public class TreeNode {
+    public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
 
+    public static void main(String[] args) {
+        int[] preorder = {3,9,20,15,7};
+        int[] inorder = {9,3,15,20,7};
+        buildTree(preorder,inorder);
     }
-
-    public TreeNode Recursion(int[] preorder, int[] inorder, int val, int start, int end){   //start,end代表在inorder上搜索的范围
+    public static TreeNode buildTree(int[] preorder, int[] inorder) {
+        return recursion(preorder, inorder, 0, 0, inorder.length-1);
+    }
+    public static TreeNode recursion(int[] preorder, int[] inorder, int pre_index, int start, int end){   //start,end代表在inorder上搜索的范围
         if(start>end || start >inorder.length)
             return null;
-        for (int i = 0; i < ; i++) {
-            
+        TreeNode tn = new TreeNode(preorder[pre_index]);
+        int in_index = 0;
+        for (int i = 0; i <= end; i++) {
+            if(preorder[pre_index]==inorder[i])
+                in_index = i;
         }
+        tn.left = recursion(preorder, inorder, pre_index+1, start, in_index-1);
+        tn.right = recursion(preorder, inorder, pre_index+in_index-start+1, in_index+1, end);   //注意右孩子节点index参数
+        return tn;
     }
+
+
 }

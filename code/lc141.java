@@ -1,7 +1,7 @@
 package code;
 /*
  * 141. Linked List Cycle
- * 题意：链表是否有换
+ * 题意：链表是否有环
  * 难度：Easy
  * 分类：Linked List, Two Pointers
  * 思路：快慢指针

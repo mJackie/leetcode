@@ -76,9 +76,9 @@ Welcome to improve this project with me.*
 | 141  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [Java](./code/lc141.java)
 | 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) |Medium| [Java](./code/lc142.java)
 | 146  | [LRU Cache](https://leetcode.com/problems/lru-cache/)  | Hard | [Java](./code/lc146.java)
-| 148  | [Sort List](https://leetcode.com/problems/sort-list/)  |Medium| [Java]
-| 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |Medium| [Java]
-| 155  | [Min Stack](https://leetcode.com/problems/min-stack/)  | Easy | [Java]
+| 148  | [Sort List](https://leetcode.com/problems/sort-list/)  |Medium| [Java](./code/lc148.java)
+| 152  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |Medium| [Java](./code/lc152.java)
+| 155  | [Min Stack](https://leetcode.com/problems/min-stack/)  | Easy | [Java](./code/lc155.java)
 | 160  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [Java]
 | 169  | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Java]
 | 198  | [House Robber](https://leetcode.com/problems/house-robber/)  | Easy | [Java]

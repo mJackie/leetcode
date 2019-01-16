@@ -4,6 +4,7 @@ package code;
  * 题意：股票买卖1次，最大利润
  * 难度：Easy
  * 分类：Arryas, Dynamic Programming
+ * Tips：lc122
  */
 public class lc121 {
     public int maxProfit(int[] prices) {

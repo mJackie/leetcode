@@ -51,7 +51,7 @@ public class lc437 {
         if (root == null)
             return 0;
         if (root.val == sum)
-            return 1 + dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);
+            return 1 + dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);//不要直接返回1，因为可能后边节点，或节点和为0
         return dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);
     }
 

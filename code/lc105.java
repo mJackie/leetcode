@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Array, Tree, Depth-first Search
  * 思路：通过递归的方式，找左节点和右节点
- * Tips：思路记一下，自己想不起来
+ * Tips：思路记一下，自己想不起来。递归的方法，每次把inorder数组分为两半，设置一个pre_index，每次根据pre_index建立节点，向下递归。
  */
 public class lc105 {
     public static class TreeNode {

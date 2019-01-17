@@ -93,29 +93,30 @@ Welcome to improve this project with me.*
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |Medium| [Java](./code/lc236.java)
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |Medium| [Java](./code/lc238.java)
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Java](./code/lc239.java)
-| 240  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |Medium| [Java]
-| 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |Medium| [Java]
-| 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [Java]
-| 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Hard | [Java]
+| 240  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |Medium| [Java](./code/lc240.java)
+| 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |Medium| [Java](./code/lc279.java)
+| 283  | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)| Easy | [Java](./code/lc283.java)
+| 287  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | Hard | [Java](./code/lc287.java)
 | 297  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | Hard | [Java](./code/lc297.java)
-| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |Medium| [Java]
-| 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |Medium| [Java]
-| 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | [Java]
-| 322  | [Coin Change](https://leetcode.com/problems/coin-change/)|Medium| [Java]
-| 337  | [House Robber III](https://leetcode.com/problems/house-robber-iii/) |Medium| [Java]
-| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/) |Medium| [Java]
-| 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |Medium| [Java]
+| 300  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |Medium| [Java](./code/lc300.java)
+| 301  | [Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/) |Hard| [Java](./code/lc301.java)
+| 309  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |Medium| [Java](./code/lc309.java)
+| 312  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/) | Hard | [Java](./code/lc312.java)
+| 322  | [Coin Change](https://leetcode.com/problems/coin-change/)|Medium| [Java](./code/lc322.java)
+| 337  | [House Robber III](https://leetcode.com/problems/house-robber-iii/) |Medium| [Java](./code/lc337.java)
+| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/) |Medium| [Java](./code/lc338.java)
+| 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |Medium| [Java](./code/lc347.java)
 | 394  | [Decode String](https://leetcode.com/problems/decode-string/) |Medium| [Java]
 | 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |Medium| [Java]
 | 416  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |Medium| [Java]
 | 437  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)  | Easy |[Java]
-| 438  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Easy |[Java]
+| 438  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Easy |[Java](./code/lc438.java)
 | 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |  [Java]
 | 461  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy |[Java]
 | 494  | [Target Sum](https://leetcode.com/problems/target-sum/) |Medium|[Java]
 | 538  | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/) | Easy |[Java]
 | 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | Easy | [Java]
-| 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |Medium| [Java]
+| 560  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k) |Medium| [Java](./code/lc560.java)
 | 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | Easy | [Java]
 | 581  | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | Easy | [Java]
 | 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy | [Java]

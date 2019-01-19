@@ -106,13 +106,13 @@ Welcome to improve this project with me.*
 | 337  | [House Robber III](https://leetcode.com/problems/house-robber-iii/) |Medium| [Java](./code/lc337.java)
 | 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/) |Medium| [Java](./code/lc338.java)
 | 347  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) |Medium| [Java](./code/lc347.java)
-| 394  | [Decode String](https://leetcode.com/problems/decode-string/) |Medium| [Java]
-| 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |Medium| [Java]
-| 416  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |Medium| [Java]
-| 437  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)  | Easy |[Java]
+| 394  | [Decode String](https://leetcode.com/problems/decode-string/) |Medium| [Java](./code/lc394.java)
+| 406  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/) |Medium| [Java](./code/lc406.java)
+| 416  | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |Medium| [Java](./code/lc416.java)
+| 437  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/)  | Easy |[Java](./code/lc437.java)
 | 438  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Easy |[Java](./code/lc438.java)
 | 448  | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | Easy |  [Java]
-| 461  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy |[Java]
+| 461  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy |[Java](./code/lc494.java)
 | 494  | [Target Sum](https://leetcode.com/problems/target-sum/) |Medium|[Java]
 | 538  | [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/) | Easy |[Java]
 | 543  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | Easy | [Java]
@@ -120,6 +120,6 @@ Welcome to improve this project with me.*
 | 572  | [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/) | Easy | [Java]
 | 581  | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/description/) | Easy | [Java]
 | 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Easy | [Java]
-| 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) |Medium|  [Java] |
-| 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |Medium|[Java]
+| 621  | [Task Scheduler](https://leetcode.com/problems/task-scheduler) |Medium|  [Java](./code/lc621.java)
+| 647  | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings) |Medium|[Java](./code/lc647.java)
 

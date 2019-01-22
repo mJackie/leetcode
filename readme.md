@@ -2,31 +2,19 @@ LeetCode Problems I have Soved
 ===
 
 Language: Java
-
-*If there was something wrong, you can new a issue. 
-Welcome to improve this project with me.*  
-
----
+语言: Java
 
 **每道题在代码头部都添加了我的解题思路和想法，希望对你有用**。
 
-语言: Java
-
-*相关问题可以直接提交一个issue，欢迎和我一起完善这个项目*  
-
 ---
 
-用户最喜欢的100道题
-[Top 100 Liked Questions](./Top100.md)
+**用户最喜欢的100道题** >>> [Top 100 Liked Questions](./Top100.md)
 
-面试最容易被问到的题（更新中...）
-[Top Interview Questions](./TopInterview.md)
-
+**面试最容易被问到的题**（更新中...） >>> [Top Interview Questions](./TopInterview.md)
 
 ### LeetCode Problems I have Soved
 
-| \# | Solution |
-|----|------|
+
 | 001  | [Java](./code/lc1.java)
 | 002  | [Java](./code/lc2.java)
 | 003  | [Java](./code/lc3.java)

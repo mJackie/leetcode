@@ -13,19 +13,9 @@ Language: Java
 **面试最容易被问到的题**（更新中...） >>> [Top Interview Questions](./TopInterview.md)
 
 ### LeetCode Problems I have Soved
-| \# |    |    |    |    |    |    |    |    |    |
+| 001 [Java](./code/lc1.java) | 002 [Java](./code/lc2.java) | 003 [Java](./code/lc3.java) | 004 [Java](./code/lc4.java)| 005 [Java](./code/lc5.java)
+| 007 [Java](./code/lc7.java) | 008 [Java](./code/lc8.java) | 010 [Java](./code/lc10.java) | 011 [Java](./code/lc11.java)| 013 [Java](./code/lc13java)
 |----|----|----|----|----|----|----|----|----|----|
-| 001 [Java](./code/lc1.java)
-| 002 [Java](./code/lc2.java)
-| 003 [Java](./code/lc3.java)
-| 004 [Java](./code/lc4.java)
-| 005 [Java](./code/lc5.java)
-| 007 [Java](./code/lc7.java)
-| 008 [Java](./code/lc8.java)
-| 010 [Java](./code/lc10.java)
-| 011 [Java](./code/lc11.java)
-| 013 [Java](./code/lc13java)
-
 | 014 [Java](./code/lc14java)
 | 015 [Java](./code/lc15java)
 | 017 [Java](./code/lc17.java)

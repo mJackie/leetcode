@@ -25,6 +25,7 @@ Language: Java
 | 010 [Java](./code/lc10.java)
 | 011 [Java](./code/lc11.java)
 | 013 [Java](./code/lc13java)
+
 | 014 [Java](./code/lc14java)
 | 015 [Java](./code/lc15java)
 | 017 [Java](./code/lc17.java)
@@ -35,6 +36,7 @@ Language: Java
 | 023 [Java](./code/lc23.java)
 | 026 [Java](./code/lc26.java)
 | 028 [Java](./code/lc28.java)
+
 | 031 [Java](./code/lc31.java)
 | 032 [Java](./code/lc32.java)
 | 033 [Java](./code/lc33.java)
@@ -45,6 +47,7 @@ Language: Java
 | 046 [Java](./code/lc46.java)
 | 048 [Java](./code/lc48.java)
 | 049 [Java](./code/lc49.java)
+
 | 053 [Java](./code/lc53.java)
 | 055 [Java](./code/lc55.java)
 | 056 [Java](./code/lc56.java)
@@ -55,6 +58,7 @@ Language: Java
 | 066 [Java](./code/lc66.java)
 | 069 [Java](./code/lc69.java)
 | 070 [Java](./code/lc70.java)
+
 | 072 [Java](./code/lc72.java)
 | 075 [Java](./code/lc75.java)
 | 076 [Java](./code/lc76.java)
@@ -65,6 +69,7 @@ Language: Java
 | 088 [Java](./code/lc88.java)
 | 094 [Java](./code/lc94.java)
 | 096 [Java](./code/lc96.java)
+
 | 098 [Java](./code/lc98.java)
 | 101 [Java](./code/lc101.java)
 | 102 [Java](./code/lc102.java)
@@ -75,6 +80,7 @@ Language: Java
 | 122 [Java](./code/lc122.java)
 | 124 [Java](./code/lc124.java)
 | 128 [Java](./code/lc128.java)
+
 | 136 [Java](./code/lc136.java)
 | 139 [Java](./code/lc139.java)
 | 141 [Java](./code/lc141.java)
@@ -85,6 +91,7 @@ Language: Java
 | 148 [Java](./code/lc148.java)
 | 152 [Java](./code/lc152.java)
 | 155 [Java](./code/lc155.java)
+
 | 160 [Java](./code/lc160.java)
 | 169 [Java](./code/lc169.java)
 | 198 [Java](./code/lc198.java)
@@ -95,6 +102,7 @@ Language: Java
 | 215 [Java](./code/lc215.java)
 | 221 [Java](./code/lc221.java)
 | 226 [Java](./code/lc226.java)
+
 | 234 [Java](./code/lc234.java)
 | 238 [Java](./code/lc238.java)
 | 239 [Java](./code/lc239.java)
@@ -105,6 +113,7 @@ Language: Java
 | 297 [Java](./code/lc297.java)
 | 300 [Java](./code/lc300.java)
 | 301 [Java](./code/lc301.java)
+
 | 309 [Java](./code/lc309.java)
 | 312 [Java](./code/lc312.java)
 | 322 [Java](./code/lc322.java)
@@ -115,6 +124,7 @@ Language: Java
 | 406 [Java](./code/lc406.java)
 | 416 [Java](./code/lc416.java)
 | 437 [Java](./code/lc437.java)
+
 | 438 [Java](./code/lc438.java)
 | 448 [Java](./code/lc448.java)
 | 461 [Java](./code/lc461.java)
@@ -125,5 +135,6 @@ Language: Java
 | 581 [Java](./code/lc581.java)
 | 617 [Java](./code/lc617.java)
 | 621 [Java](./code/lc621.java)
+
 | 647 [Java](./code/lc647.java)
 | 771 [Java](./code/lc771.java)

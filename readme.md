@@ -14,7 +14,7 @@ Language: Java
 
 ### LeetCode Problems I have Soved
 
-
+|----|----|----|----|----|----|----|----|----|----|
 | 001 [Java](./code/lc1.java)
 | 002 [Java](./code/lc2.java)
 | 003 [Java](./code/lc3.java)

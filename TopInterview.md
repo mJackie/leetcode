@@ -21,15 +21,16 @@
 | 021  | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [Java](./code/lc21.java)
 | 022  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) |Medium| [Java](./code/lc22.java)
 | 023  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [Java](./code/lc23.java)
-
+| 029  |
 
 | 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |Medium| [Java](./code/lc33.java)
 | 034  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) |Medium| [Java](./code/lc34.java)
 | 035  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |Medium| [Java](./code/lc35.java)
-
+| 041  |
 
 
 | 042  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Hard | [Java](./code/lc42.java)
+| 044  |
 
 | 046  | [Permutations](https://leetcode.com/problems/permutations/)  |Medium| [Java](./code/lc46.java)
 | 048  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  |Medium| [Java](./code/lc48.java)

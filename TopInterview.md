@@ -26,6 +26,7 @@
 | 033  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) |Medium| [Java](./code/lc33.java)
 | 034  | [Search for a Range](https://leetcode.com/problems/search-for-a-range/) |Medium| [Java](./code/lc34.java)
 | 035  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) |Medium| [Java](./code/lc35.java)
+| 036  |
 | 041  |
 
 
@@ -35,9 +36,10 @@
 | 046  | [Permutations](https://leetcode.com/problems/permutations/)  |Medium| [Java](./code/lc46.java)
 | 048  | [Rotate Image](https://leetcode.com/problems/rotate-image/)  |Medium| [Java](./code/lc48.java)
 | 049  | [Group Anagrams](https://leetcode.com/problems/anagrams/)|Medium| [Java](./code/lc49.java)
+| 050  |
 
 | 053  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) |Medium| [Java](./code/lc53.java)
-
+| 054  |
 | 055  | [Jump Game](https://leetcode.com/problems/jump-game/)  |Medium| [Java](./code/lc55.java)
 | 056  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) |Medium| [Java](./code/lc56.java)
 | 062  | [Unique Paths](https://leetcode.com/problems/unique-paths/)  |Medium| [Java](./code/lc62.java)

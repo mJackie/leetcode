@@ -61,6 +61,7 @@ Language: Java
 | 069 [Java](./code/lc69.java)
 | 070 [Java](./code/lc70.java)
 | 072 [Java](./code/lc72.java)
+| 073 [Java](./code/lc73.java)
 | 075 [Java](./code/lc75.java)
 | 076 [Java](./code/lc76.java)
 | 078 [Java](./code/lc78.java)

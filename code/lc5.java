@@ -5,6 +5,7 @@ package code;
  * 难度：Medium
  * 分类：String, Dynamic Programming
  * Tips：从后往前遍历，保证后续dp时，子情况已计算出
+ *       还有一种思路是从中间往两边扩展，中间有两种情况，一种一个字符，一种两个字符
  */
 public class lc5 {
     public static void main(String[] args) {

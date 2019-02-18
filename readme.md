@@ -86,6 +86,7 @@ Language: Java
 | 122 [Java](./code/lc122.java)
 | 124 [Java](./code/lc124.java)
 | 125 [Java](./code/lc125.java)
+| 127 [Java](./code/lc127.java)
 | 128 [Java](./code/lc128.java)
 | 136 [Java](./code/lc136.java)
 | 139 [Java](./code/lc139.java)

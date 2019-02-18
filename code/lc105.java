@@ -37,5 +37,4 @@ public class lc105 {
         return tn;
     }
 
-
 }

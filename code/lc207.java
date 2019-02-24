@@ -7,7 +7,7 @@ import java.util.*;
  * 题意：课程是否能够完成
  * 难度：Medium
  * 分类：Depth-first Search, Breadth-first Search, Graph, Topology Sort
- * 思路：两种方法，一种BFS拓扑排序，另一种DFS找是否有环
+ * 思路：两种方法，一种BFS拓扑排序(每个节点，先求出入度)，另一种DFS找是否有环
  * Tips：很经典的题，拓扑排序，判断图是否有环的DFS
  */
 public class lc207 {
@@ -17,8 +17,8 @@ public class lc207 {
         System.out.println(canFinish2(2, prerequisites));
     }
     public static boolean canFinish(int numCourses, int[][] prerequisites) {
-        int[] indegree = new int[numCourses];
-        int[][] graph = new int[numCourses][numCourses];
+        int[] indegree = new int[numCourses];   //计算入度
+        int[][] graph = new int[numCourses][numCourses];    //邻接矩阵
         for (int i = 0; i < prerequisites.length ; i++) {
             int node1 = prerequisites[i][0];
             int node2 = prerequisites[i][1];

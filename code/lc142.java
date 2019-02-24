@@ -4,7 +4,7 @@ package code;
  * 题意：求链表环的起始节点
  * 难度：Medium
  * 分类：Linked List, Two Pointers
- * 思路：lc141进一步问题。快慢指针相遇后走了a+b步，head 走a步后到起始点，则 a+b+n=2a+2b -> a+b=n 所以相遇点再走a步到起始点。相遇以后再设一个指针从head开始走，满指针接着走，则相遇点为环的入口点。
+ * 思路：lc141进一步问题。快慢指针相遇后走了a+b步，head 走a步后到起始点，则 a+b+n=2a+2b -> a+b=n 所以相遇点再走a步到起始点。相遇以后再设一个指针从head开始走，慢指针接着走，则相遇点为环的入口点。
  * Tips：
  */
 public class lc142 {

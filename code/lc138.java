@@ -31,7 +31,7 @@ public class lc138 {
         node = head;
         RandomListNode res = head.next;
         RandomListNode temp = head.next;
-        while(temp.next!=null){
+        while(temp!=null&&temp.next!=null){
             node.next = temp.next;
             temp.next = node.next.next;
             node = node.next;

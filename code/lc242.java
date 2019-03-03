@@ -4,8 +4,8 @@ package code;
  * 题意：字符串t是否为s打乱后的重排列
  * 难度：Easy
  * 分类：Hash Table, Sort
- * 思路：
- * Tips：
+ * 思路：hash table 计算即可，<0了直接返回false
+ * Tips：和重排列那题联系一下 lc46
  */
 public class lc242 {
     public boolean isAnagram(String s, String t) {

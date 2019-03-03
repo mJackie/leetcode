@@ -22,7 +22,7 @@ public class lc347 {
         for (int i = 0; i < nums.length ; i++) {    //放入hashmap计数
             hm.put(nums[i], hm.getOrDefault(nums[i], 0)+1);
         }
-        for( int i : hm.keySet() ){ //key,value反转，放入treemap
+        for( int i : hm.keySet() ){ //key,value反转，放入treemap  TreeMap中默认是按照升序进行排序的
             int freq = hm.get(i);
             if(tm.containsKey(freq))
                 tm.get(freq).add(i);

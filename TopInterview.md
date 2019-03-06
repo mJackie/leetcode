@@ -109,14 +109,14 @@
 | 230  | [Kth Smallest Element in a BST]() | Medium | [Java](./code/lc230.java)
 | 234  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [Java](./code/lc234.java)
 | 236  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |Medium| [Java](./code/lc236.java)
-| 237  | [Delete Node in a Linked List]() |  | [Java](./code/lc237.java)
+| 237  | [Delete Node in a Linked List]() | Easy | [Java](./code/lc237.java)
 | 238  | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) |Medium| [Java](./code/lc238.java)
 | 239  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | Hard | [Java](./code/lc239.java)
 | 240  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |Medium| [Java](./code/lc240.java)
-| 242  | [Valid Anagram]() |  | [Java](./code/lc242.java)
+| 242  | [Valid Anagram]() | Easy | [Java](./code/lc242.java)
 | 251  | [Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector) | Medium | [没权限]
 | 253  | [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii) | Medium | [没权限]
-| 268  | [Missing Number]() |  | [Java](./code/lc268.java)
+| 268  | [Missing Number]() | Easy | [Java](./code/lc268.java)
 | 269  | [Alien Dictionary]() | Hard |[没权限]
 | 277  | [Find the Celebrity]() | Medium | [没权限]
 | 279  | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |Medium| [Java](./code/lc279.java)

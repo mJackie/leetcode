@@ -1,20 +1,29 @@
-LeetCode Problems I have Soved
+LeetCode 指南
 ===
 
-Language: Java
-语言: Java
+- 语言: Java
+- 说明： 每道题在代码头部都添加了我的解题思路和想法，Eg:
 
-**每道题在代码头部都添加了我的解题思路和想法，希望对你有用**。
+
+    /*
+     * 160. Intersection of Two Linked Lists
+     * 题意：求两个链表的交叉点
+     * 难度：Easy
+     * 分类：LinkedList
+     * 思路：两种方法：1.找出两个链表的长度差x，长的先走x步； 2.走完一个链表，走另一个链表，两个cur都走了两个链表长度的和步
+     * Tips：两种方法的本质是一样的其实，都是找到了步数差，都遍历了两遍
+     */
 
 ---
 
-**用户最喜欢的100道题** >>> [Top 100 Liked Questions](./Top100.md)
-
-**面试最容易被问到的题**（更新中...） >>> [Top Interview Questions](./TopInterview.md)
+### RoadMap
+- [:soccer:] [用户最喜欢的100道题(Top 100 Liked Questions)](./Top100.md)
+- [:basketball:] [面试最容易被问到的题(Top Interview Questions)](./TopInterview.md)
+- [:hamburger:] [我的题解(Problems I have Soved)](#LeetCode-Problems-I-have-Soved)
 
 ### LeetCode Problems I have Soved
 
-| 001 [Java](./code/lc1.java)
+001 [Java](./code/lc1.java)
 | 002 [Java](./code/lc2.java)
 | 003 [Java](./code/lc3.java)
 | 004 [Java](./code/lc4.java)
@@ -80,8 +89,8 @@ Language: Java
 | 105 [Java](./code/lc105.java)
 | 108 [Java](./code/lc108.java)
 | 114 [Java](./code/lc114.java)
-| 114 [Java](./code/lc116.java)
-| 114 [Java](./code/lc118.java)
+| 116 [Java](./code/lc116.java)
+| 118 [Java](./code/lc118.java)
 | 121 [Java](./code/lc121.java)
 | 122 [Java](./code/lc122.java)
 | 124 [Java](./code/lc124.java)
@@ -113,20 +122,26 @@ Language: Java
 | 172 [Java](./code/lc172.java)
 | 179 [Java](./code/lc179.java)
 | 189 [Java](./code/lc189.java)
+| 190 [Java](./code/lc190.java)
+| 191 [Java](./code/lc191.java)
 | 198 [Java](./code/lc198.java)
 | 200 [Java](./code/lc200.java)
+| 202 [Java](./code/lc202.java)
+| 204 [Java](./code/lc204.java)
 | 206 [Java](./code/lc206.java)
 | 207 [Java](./code/lc207.java)
 | 208 [Java](./code/lc208.java)
 | 210 [Java](./code/lc210.java)
 | 212 [Java](./code/lc212.java)
 | 215 [Java](./code/lc215.java)
+| 217 [Java](./code/lc217.java)
 | 218 [Java](./code/lc215.java)
 | 221 [Java](./code/lc221.java)
 | 226 [Java](./code/lc226.java)
 | 227 [Java](./code/lc227.java)
 | 230 [Java](./code/lc230.java)
 | 234 [Java](./code/lc234.java)
+| 236 [Java](./code/lc236.java)
 | 237 [Java](./code/lc237.java)
 | 238 [Java](./code/lc238.java)
 | 239 [Java](./code/lc239.java)
@@ -146,20 +161,34 @@ Language: Java
 | 322 [Java](./code/lc322.java)
 | 324 [Java](./code/lc324.java)
 | 326 [Java](./code/lc326.java)
+| 328 [Java](./code/lc328.java)
 | 329 [Java](./code/lc329.java)
+| 334 [Java](./code/lc334.java)
 | 337 [Java](./code/lc337.java)
 | 338 [Java](./code/lc338.java)
+| 341 [Java](./code/lc341.java)
+| 344 [Java](./code/lc338.java)
 | 347 [Java](./code/lc347.java)
+| 350 [Java](./code/lc350.java)
+| 371 [Java](./code/lc371.java)
+| 378 [Java](./code/lc378.java)
+| 380 [Java](./code/lc380.java)
+| 384 [Java](./code/lc384.java)
+| 387 [Java](./code/lc387.java)
 | 394 [Java](./code/lc394.java)
+| 395 [Java](./code/lc395.java)
 | 406 [Java](./code/lc406.java)
+| 412 [Java](./code/lc412.java)
 | 416 [Java](./code/lc416.java)
 | 437 [Java](./code/lc437.java)
 | 438 [Java](./code/lc438.java)
 | 448 [Java](./code/lc448.java)
+| 454 [Java](./code/lc454.java)
 | 461 [Java](./code/lc461.java)
 | 494 [Java](./code/lc494.java)
 | 538 [Java](./code/lc538.java)
 | 543 [Java](./code/lc543.java)
+| 560 [Java](./code/lc543.java)
 | 572 [Java](./code/lc572.java)
 | 581 [Java](./code/lc581.java)
 | 617 [Java](./code/lc617.java)

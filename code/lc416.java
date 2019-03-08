@@ -16,7 +16,7 @@ public class lc416 {
         int[] nums = {1, 2, 5};
         System.out.println(canPartition(nums));
     }
-    public static boolean canPartition(int[] nums) {
+    public static boolean canPartition(int[] nums) {    //自己写的不知道什么，回头看已经看不懂自己的代码了。。。
         int sum = 0;
         for (int i : nums) {
             sum+=i;
@@ -38,5 +38,32 @@ public class lc416 {
             s.addAll(s2);
         }
         return false;
+    }
+
+    public boolean canPartition2(int[] nums) {
+        // check edge case
+        if (nums == null || nums.length == 0) {
+            return true;
+        }
+        // preprocess
+        int volumn = 0;
+        for (int num : nums) {
+            volumn += num;
+        }
+        if (volumn % 2 != 0) {
+            return false;
+        }
+        volumn /= 2;
+        // dp def
+        boolean[] dp = new boolean[volumn + 1];
+        // dp init
+        dp[0] = true;
+        // dp transition
+        for (int i = 1; i <= nums.length; i++) {
+            for (int j = volumn; j >= nums[i-1]; j--) { //从后往前更新，压缩空间
+                dp[j] = dp[j] || dp[j - nums[i-1]];
+            }
+        }
+        return dp[volumn];
     }
 }

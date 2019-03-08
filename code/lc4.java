@@ -5,6 +5,7 @@ package code;
  * 难度：Hard
  * 分类：Array, Binary Search, Divide and Conquer
  * 注意：两个数组长度可能不一样；边际问题
+ *      复杂度是 O(log(min(m,n))  ，在短的数组上二分查找即可
  */
 public class lc4 {
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package code;
  * 分类：Math, Dynamic Programming, Minimax
  * 思路：之前做过有印象，先拿的人一定赢的。
  *      dp的思路需要借鉴一下的， dp[i][j] 表示数组 i~j 的最优解
- *      向两边拓展的dp, 用一个变量表示 size 这个dp。想想一下三角形的区域是怎么一步步被填满的
+ *      向两边拓展的dp, 用一个变量表示 size 这个dp。想想一下三角形的区域是怎么一步步被填满的，斜线斜线的，最后是一个点
  *      拿了piles[i]， 则dp[i+1][j]就被另一个人拿了，结果是 piles[i] - dp[i + 1][j]
  *      拿了piles[j]， 则dp[i][j-1]就被另一个人拿了，结果是 piles[j] - dp[i][j - 1]
  * Tips：

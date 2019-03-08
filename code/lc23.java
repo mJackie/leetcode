@@ -11,6 +11,7 @@ import java.util.PriorityQueue;
  * 分类：Linked List, Divide and Conquer, Heap
  * 思路：优先队列或分治方法
  * 注意：优先队列如何定义比较方法
+ *      lc378, lc264
  */
 public class lc23 {
     public class ListNode {

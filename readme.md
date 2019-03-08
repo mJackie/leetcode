@@ -5,7 +5,7 @@ LeetCode 指南
 - 说明： 每道题在代码头部都添加了我的解题思路和批注，Eg:
 
 
-        /*
+        /*****
          * 287. Find the Duplicate Number
          * 题意：n+1个数属于[1~n]，找出重复的那个数
          * 难度：Medium
@@ -149,6 +149,8 @@ LeetCode 指南
 | 239 [Java](./code/lc239.java)
 | 240 [Java](./code/lc240.java)
 | 242 [Java](./code/lc242.java)
+| 263 [Java](./code/lc263.java)
+| 264 [Java](./code/lc264.java)
 | 268 [Java](./code/lc268.java)
 | 279 [Java](./code/lc279.java)
 | 283 [Java](./code/lc283.java)

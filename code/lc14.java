@@ -13,7 +13,7 @@ public class lc14 {
 
     }
 
-    public static String longestCommonPrefix(String[] strs) {
+    public static String longestCommonPrefix(String[] strs) {   //不是最优的方法，多做了比较
         if(strs.length==0)
             return "";
         Arrays.sort(strs);

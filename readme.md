@@ -82,6 +82,7 @@ LeetCode 指南
 | 088 [Java](./code/lc88.java)
 | 091 [Java](./code/lc91.java)
 | 094 [Java](./code/lc94.java)
+| 095 [Java](./code/lc95.java)
 | 096 [Java](./code/lc96.java)
 | 098 [Java](./code/lc98.java)
 | 101 [Java](./code/lc101.java)
@@ -202,3 +203,4 @@ LeetCode 指南
 | 746 [Java](./code/lc746.java)
 | 771 [Java](./code/lc771.java)
 | 877 [Java](./code/lc877.java)
+| 983 [Java](./code/lc983.java)

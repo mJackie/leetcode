@@ -9,7 +9,7 @@ package code;
  *      sell[i] = max( sell[i-1], buy[i-1]+price[i] )
  *      空间压缩以后时间是O(n)，空间是O(1)
  * Tips：https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/discuss/75931/Easiest-JAVA-solution-with-explanations
- *  lc122
+ *      lc121, lc309, lc188, lc123, lc714
  */
 public class lc309 {
     public int maxProfit(int[] prices) {

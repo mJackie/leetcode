@@ -5,7 +5,7 @@ package code;
  * 难度：Easy
  * 分类：Array, Greedy
  * 思路：计算 prices[i] 与 prices[i-1] 的差值，把正数全加起来就行了
- * Tips：lc121, lc309
+ * Tips：lc121, lc309, lc188, lc123, lc714
  */
 public class lc122 {
     public int maxProfit(int[] prices) {

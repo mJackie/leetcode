@@ -5,6 +5,7 @@ package code;
  * 难度：Easy
  * 分类：Two Pointers, String
  * Tips：注意判断子串为空的方法为needle.length()==0，不要用needle==""
+ *       最优的解法应该是O(N)的，类似KMP的思路，不过面试不会让写KMP的
  */
 public class lc28 {
     public static void main(String[] args) {

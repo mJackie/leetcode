@@ -6,7 +6,7 @@ package code;
  * 分类：Array, Two Pointers
  * 思路：两个指针，分别O(n)，指向要交换的位置和和他交换的数
  *      答案中直接遍历一遍数组，放到位置上就行了，i++
- * Tips：
+ * Tips：lc26
  */
 public class lc27 {
     public int removeElement(int[] nums, int val) {

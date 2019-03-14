@@ -9,10 +9,6 @@ package code;
 import java.util.Arrays;
 
 public class lc14 {
-    public static void main(String[] args) {
-
-    }
-
     public static String longestCommonPrefix(String[] strs) {   //不是最优的方法，多做了比较
         if(strs.length==0)
             return "";

@@ -4,6 +4,7 @@ package code;
  * 题意：移除数组中重复元素
  * 难度：Easy
  * 分类：Array, Two Pointers
+ *      lc27
  */
 public class lc26 {
     public static void main(String[] args) {

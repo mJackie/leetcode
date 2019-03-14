@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Math, Binary Search
  * 思路：被除数减去除数，除数每次左移一位，也就是*2 来实现类似二分的思想
- * Tips：注意下用long类型，以及溢出的情况
+ * Tips：注意下用long类型，以及溢出的情况，注意符号
  */
 public class lc29 {
     public static void main(String[] args) {

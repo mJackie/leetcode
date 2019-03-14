@@ -9,9 +9,6 @@ package code;
  *       注意考虑两个链表长度不一致的问题
  */
 public class lc2 {
-    public static void main(String[] args) {
-
-    }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int sum = 0;

@@ -5,6 +5,7 @@ import java.util.Vector;
  * 17. Letter Combinations of a Phone Number
  * 题意：手机键盘字母输入
  * 难度：Medium
+ * 思路：思路记一下，每次放到vector中，遍历vector,加上所有的可能
  * 分类：String, Backtracking
  */
 public class lc17 {

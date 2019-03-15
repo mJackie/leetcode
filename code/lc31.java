@@ -28,7 +28,7 @@ public class lc31 {
             //从这个数之后的数中找出第一个比x大的数
             int n = nums[ptr];
             int ptr2 = ptr;
-            for(int i=ptr+1; i<nums.length; i++){
+            for(int i=ptr+1; i<nums.length; i++){   //这不用这么麻烦，后边的数有序的，这可以简化
                 if( nums[i]>nums[ptr-1] && nums[i]<=n ) {//注意 <= {2,3,1,3,3}
                     n = nums[i];
                     ptr2 = i;

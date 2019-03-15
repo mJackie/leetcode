@@ -14,7 +14,7 @@ public class lc49 {
         HashMap<String,List<String>> m = new HashMap();
         for (int i = 0; i < strs.length ; i++) {
             char[] chs = strs[i].toCharArray();
-            Arrays.sort(chs);
+            Arrays.sort(chs);   //对字符串排序
             String key = String.valueOf(chs);
             if(m.containsKey(key))
                 m.get(key).add(strs[i]);

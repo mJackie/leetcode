@@ -5,8 +5,8 @@ package code;
  * 题意：路径数
  * 难度：Medium
  * 分类：Array, Dynamic Programming
- * 思路：和lc64, lc62思路一样, arr存储的内容由路径数换成了和
- * Tips：可以用一位数组减小空间复杂度
+ * 思路：和lc64, lc62思路一样
+ * Tips：可以用一维数组减小空间复杂度
  */
 public class lc63 {
     public static void main(String[] args) {

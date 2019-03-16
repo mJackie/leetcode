@@ -51,5 +51,4 @@ public class lc98 {
         }
         return true;
     }
-
 }

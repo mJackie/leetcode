@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /*
  * 32. Longest Valid Parentheses
- * 题意：最长有效子串
+ * 题意：最长括号匹配
  * 难度：Hard
  * 分类：Dynamic Programming, String
  * 思路：两种常规方法，一是dp，每个位置记录以该位置结尾的最长长度。另一种是用栈，把位置索引入栈。

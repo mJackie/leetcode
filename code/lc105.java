@@ -34,7 +34,7 @@ public class lc105 {
         }
         tn.left = recursion(preorder, inorder, pre_index+1, start, in_index-1);
         tn.right = recursion(preorder, inorder, pre_index+in_index-start+1, in_index+1, end);   //注意右孩子节点index参数
-        return tn;
+        return tn;      //记住函数的返回值的设置，返回Node，递归的构造子树
     }
 
 }

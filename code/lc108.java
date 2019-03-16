@@ -1,7 +1,7 @@
 package code;
 /*
  * 108. Convert Sorted Array to Binary Search Tree
- * 题意：将有序数组转换为二叉平衡树
+ * 题意：将有序数组转换为二叉搜索树
  * 难度：Easy
  * 分类：Tree, Depth-first Search
  * 思路：类似二分查找，每次把数组劈成两半

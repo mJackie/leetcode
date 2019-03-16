@@ -43,7 +43,7 @@ public class lc56 {
         }
         Arrays.sort(starts);
         Arrays.sort(ends);
-        for (int i = 1; i < starts.length ; i++) {
+        for (int i = 1; i < starts.length ; i++) {  //注意下这里的操作
             if(starts[i]<=ends[i-1]){
                 starts[i] = starts[i-1];
             }else{

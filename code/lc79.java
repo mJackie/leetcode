@@ -6,6 +6,7 @@ package code;
  * 分类：Array, Backtracking
  * 思路：回溯法
  * Tips：访问过的格子要标记，不能重复访问。回溯法注意回来的时候要重置标志位。向下找的时候直接找4个方向的，回来的时候不用再找了，只需重置标志位。
+ *       不用mem，因为 ABC ABAD 这种情况，不能仅仅从A一个字符就断定为不为true
  */
 public class lc79 {
     public static void main(String[] args) {

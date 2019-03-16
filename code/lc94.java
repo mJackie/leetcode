@@ -1,10 +1,10 @@
 package code;
 /*
  * 94. Binary Tree Inorder Traversal
- * 题意：二叉树中序遍历
+ * 题意：
  * 难度：Medium
  * 分类：HashTable, Stack, Tree
- * 思路：左节点依次入栈
+ * 思路：左节点依次入栈二叉树中序遍历
  * Tips：和lc144前序,lc145后序一起看
  */
 import java.util.ArrayList;

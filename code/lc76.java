@@ -7,6 +7,7 @@ package code;
  * 思路：两个指针，移动右指针使得满足条件，移动左指针缩短距离。用hashmap存储进行判断是否满足条件。
  * Tips：很难的题，思路记一下。
  *      https://leetcode.com/problems/minimum-window-substring/discuss/26808/here-is-a-10-line-template-that-can-solve-most-substring-problems
+ *      和lc3也坐下对比
  */
 import java.util.HashMap;
 

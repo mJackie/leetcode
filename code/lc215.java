@@ -29,11 +29,8 @@ public class lc215 {
             nums[right] = nums[left];
         }
         nums[left] = cur;
-        if(left==k-1)
-            return cur;
-        else if(left>k-1)
-            return quickSort(nums, origin_l, left-1, k);
-        else
-            return quickSort(nums, left+1, origin_r, k);
+        if(left==k-1) return cur;
+        else if(left>k-1) return quickSort(nums, origin_l, left-1, k);
+        else return quickSort(nums, left+1, origin_r, k);
     }
 }

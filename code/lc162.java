@@ -4,7 +4,7 @@ package code;
  * 题意：找出数组中任意一个山顶点，时间复杂度O(lg(n))，山顶点指该数左右两边都的数都小于他
  * 难度：Medium
  * 分类：Array, Binary Search
- * 思路：二分查找，想好左右两边递归判断。只有nums[mid]<nums[mid+1]，说名右半边就存在峰值
+ * 思路：二分查找，想好左右两边递归判断。只要nums[mid]<nums[mid+1]，说明右半边就存在峰值
  * Tips：
  */
 public class lc162 {

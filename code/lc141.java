@@ -5,6 +5,7 @@ package code;
  * 难度：Easy
  * 分类：Linked List, Two Pointers
  * 思路：快慢指针
+ *      lc142
  */
 public class lc141 {
     public class ListNode {

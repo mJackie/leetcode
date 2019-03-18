@@ -6,6 +6,7 @@ package code;
  * 分类：Tree, Depth-first Search
  * 思路：因为二叉树只有两个节点，一条路径可以想象成倒V字，从低层的某个节点一路向上，到达一个顶点，再一路向下，理解了这一点，整道题就好解了。
  * Tips：用了一个全局变量存储最后结果，因为函数返回的是直线路径上的最优解，而不是V字路径最优解
+ *      lc133
  */
 public class lc124 {
     public class TreeNode {

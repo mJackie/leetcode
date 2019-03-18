@@ -4,7 +4,7 @@ package code;
  * 题意：判断链表是否是回文的
  * 难度：Easy
  * 分类：LinkedList, Two Pointers
- * 思路：反转一般就行了，避免了空间开销
+ * 思路：反转一半就行了，避免了空间开销
  * Tips：很好的题，考了 Two Pointers, 还考了链表反转
  */
 public class lc234 {

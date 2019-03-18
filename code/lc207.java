@@ -9,6 +9,7 @@ import java.util.*;
  * 分类：Depth-first Search, Breadth-first Search, Graph, Topology Sort
  * 思路：两种方法，一种BFS拓扑排序(每个节点，先求出入度)，另一种DFS找是否有环
  * Tips：很经典的题，拓扑排序，判断图是否有环的DFS
+ *       lc127 lc210
  */
 public class lc207 {
     public static void main(String[] args) {

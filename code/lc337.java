@@ -11,6 +11,7 @@ import java.util.HashMap;
  * Tips：https://leetcode.com/problems/house-robber-iii/discuss/79330/Step-by-step-tackling-of-the-problem
  *       解答给了三种方法，递归，记忆递归，dp
  *       多理解一下树的dp，核心是返回数组而不是一个数字
+ *       lc112, lc113, lc437, lc129, lc124, lc337
  */
 public class lc337 {
     public class TreeNode {
@@ -26,7 +27,7 @@ public class lc337 {
     public int helper(TreeNode root, HashMap<TreeNode, Integer> mem){
         if(root==null)
             return 0;
-        if(mem.containsKey(root))   //用mem去记忆一下资情况的结果，防止重复计算
+        if(mem.containsKey(root))   //用mem去记忆一下子情况的结果，防止重复计算
             return mem.get(root);
         int val =0;
         if(root.left!=null){

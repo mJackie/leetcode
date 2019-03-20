@@ -5,7 +5,10 @@ package code;
  * 难度：Medium
  * 分类：Dynamic Programming, Depth-first Search
  * 思路：可以用递归+mem的方法。也可以转化为0，1背包问题，注意dp的时候把下标移位。另一种方法是转化为子数组的和为(target + sum(nums))/2的问题，求解方法类似lc416
- * Tips：多抽象总结一下相关的问题，如何抽象出背包。对于这个数字，要么+，要么-，就两种情况。
+ * Tips：多抽象总结一下相关的问题，如何抽象出背包。对于这个数字，要么+，要么-，就两种情况。https://leetcode.com/problems/target-sum/discuss/97335/Short-Java-DP-Solution-with-Explanation
+ *       dp[i][j] 表示前i个元素和为j的方案个数
+ *       dp[i][j] = dp[i-1][j-nums[j]] + dp[i-1][j+nums[j]] //加减两种方案加起来
+ *       lc416, lc494
  */
 public class lc494 {
     public int findTargetSumWays(int[] nums, int S) {

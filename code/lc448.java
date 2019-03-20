@@ -9,7 +9,7 @@ import java.util.List;
  * 难度：Easy
  * 分类：Array
  * 思路：把对应的数字放到对应的位置，最后遍历一遍，如果位置和数字不对应，则为缺失的值。
- * Tips：
+ * Tips：lc268 lc448 lc287
  */
 public class lc448 {
     public static void main(String[] args) {

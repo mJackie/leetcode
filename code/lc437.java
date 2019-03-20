@@ -12,33 +12,17 @@ import java.util.HashMap;
  *       递归的时候用减是否==0的方式，而不是+==sum的方式
  *       和lc560有共同的思想，每个节点只需遍历一遍就可以了
  *       虽然是Easy题，做好也不简单
+ *       lc112, lc113, lc437, lc129, lc124, lc337
+ *       lc303, lc437, lc560
  */
 public class lc437 {
     public static class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
-
         TreeNode(int x) {
             val = x;
         }
-    }
-
-    public static void main(String[] args) {
-        TreeNode node10 = new TreeNode(10);
-        TreeNode node5 = new TreeNode(5);
-        TreeNode node3 = new TreeNode(3);
-        TreeNode node2 = new TreeNode(2);
-        TreeNode node1 = new TreeNode(1);
-        TreeNode noden3 = new TreeNode(-3);
-        TreeNode node11 = new TreeNode(11);
-        node10.left = node5;
-        node10.right = noden3;
-        node5.left = node3;
-        node5.right = node2;
-        node2.right = node1;
-        noden3.right = node11;
-        System.out.println(pathSum2(node10, 8));
     }
 
 
@@ -48,10 +32,8 @@ public class lc437 {
     }
 
     public static int dfs(TreeNode root, int sum) { //一条路径向下走
-        if (root == null)
-            return 0;
-        if (root.val == sum)
-            return 1 + dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);//不要直接返回1，因为可能后边节点，或节点和为0
+        if (root == null) return 0;
+        if (root.val == sum) return 1 + dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);//不要直接返回1，因为可能后边节点，或节点和为0
         return dfs(root.left, sum - root.val) + dfs(root.right, sum - root.val);
     }
 

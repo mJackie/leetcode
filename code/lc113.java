@@ -8,7 +8,7 @@ import java.util.List;
  * 难度：Medium
  * 分类：Tree, Depth-first Search
  * 思路：回溯，注意因为节点上可能正值，可能负值，所以不能剪枝
- * Tips：lc124
+ * Tips：lc112, lc113, lc437, lc129, lc124, lc337
  */
 public class lc113 {
     public class TreeNode {

@@ -6,6 +6,7 @@ package code;
  * 分类：Dynamic Programming
  * 思路：
  * Tips：Bingo!
+ *      lc303, lc437, lc560
  */
 public class lc303 {
     class NumArray {

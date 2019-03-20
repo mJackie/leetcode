@@ -35,7 +35,7 @@ public class lc236 {
         parent.put(root, null);
         stack.push(root);
 
-        while (!parent.containsKey(p) || !parent.containsKey(q)) {
+        while (!parent.containsKey(p) || !parent.containsKey(q)) {  //遍历了一遍节点，把节点的父节点信息记录了一下
             TreeNode node = stack.pop();
             if (node.left != null) {
                 parent.put(node.left, node);
@@ -47,11 +47,11 @@ public class lc236 {
             }
         }
         Set<TreeNode> ancestors = new HashSet<>();
-        while (p != null) {
+        while (p != null) {     //p的路径节点添加到hashset中
             ancestors.add(p);
             p = parent.get(p);
         }
-        while (!ancestors.contains(q))
+        while (!ancestors.contains(q)) //第一个hashset中遇到的节点，就是最近公共祖先
             q = parent.get(q);
         return q;
     }

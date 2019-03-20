@@ -17,7 +17,7 @@ public class lc279 {
         int[] dp = new int[n];
         Arrays.fill(dp,Integer.MAX_VALUE);
         for (int i = 1; i <= n ; i++) { //两个for循环
-            for (int j=1; j<=i ; j++) {
+            for (int j=1; j*j<=i ; j++) {
                 if(j*j==i)
                     dp[i-1] = 1;
                 if(j*j<i){

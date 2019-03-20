@@ -9,7 +9,8 @@ import java.util.HashSet;
  * 思路：题意可以转换为用任意个元素组成的和等于数组和/2。可以和 lc1, lc15 3-Sum 对比。
  *      0，1背包问题，递推比较简单，所以空间可以压缩成一维
  *      自己想的思路其实和压缩后的0，1背包类似，但没想到该问题可以抽象为0，1背包
- * Tips：
+ *       dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]
+ * Tips：lc416, lc494
  */
 public class lc416 {
     public static void main(String[] args) {

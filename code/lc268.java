@@ -7,7 +7,7 @@ package code;
  * 思路：两种巧妙的方法，时间空间都是O(1)
  *      异或
  *      求和以后，减去所有
- * Tips：
+ * Tips：lc268 lc448 lc287
  */
 public class lc268 {
     public int missingNumber(int[] nums) {
@@ -16,7 +16,7 @@ public class lc268 {
         return res;
     }
     public int missingNumber2(int[] nums) {
-        int res = nums.length;
+        int res = nums.length;  //异或上长度
         for(int i=0; i<nums.length; i++) res^=i^nums[i];
         return res;
     }

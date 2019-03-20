@@ -3,11 +3,12 @@ package code;
  * 287. Find the Duplicate Number
  * 题意：n+1个数属于[1~n]，找出重复的那个数
  * 难度：Medium
- * 分类：Array, Two Pointers, Binary Search
+ * 分类：Array, Two Pointers, Binary Searn+1个数属于[1~n]，找出重复的那个数ch
  * 思路：如果nums[i]不在对应位置，则和对应位置交换。如果对应位置上也为该数，说明这个数就是重复的数字。这个方法改变了数组。是错误的。
  *      另一种方法，把问题转换成有环链表，找环的起始节点。O(n) O(1) lc142
  *      二分查找，每次看一边数字的个数, O(nlog(n)) O(1)
  * Tips：剑指offer原题
+ *       lc268 lc448 lc287
  */
 public class lc287 {
     public int findDuplicate(int[] nums) {  //该方法修改了数组，是错误的，没看清题意

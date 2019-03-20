@@ -11,6 +11,7 @@ import java.util.PriorityQueue;
  * 思路：两种思路。 1是类似多个有序链表合并的思路，优先队列。
  *                2是二分，二分的是val，看比这个val小的数是不是k
  * Tips：lc23方法很像
+ *       lc240
  */
 public class lc378 {
     class Cell{

@@ -1,7 +1,7 @@
 package code;
 /*
  * 543. Diameter of Binary Tree
- * 题意：树种的最长路径
+ * 题意：树中的最长路径
  * 难度：Easy
  * 分类：Tree
  * 思路：和lc124思路一样，但lc124是Hard，这道竟然是Easy，哈哈哈

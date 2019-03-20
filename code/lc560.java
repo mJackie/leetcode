@@ -9,6 +9,7 @@ import java.util.HashMap;
  * 分类：Array, Hash Table
  * 思路：求出累加和存在hashmap中，如果当前hashmap中存在sum-k，那么就是一个解
  * Tips：经典思路，记一下。lc437有类似思想。
+ *       lc303, lc437, lc560
  */
 public class lc560 {
     public int subarraySum(int[] nums, int k) {

@@ -1,10 +1,10 @@
 package code;
 /*
  * 239. Sliding Window Maximum
- * 题意：滑动窗口最大值
+ * 题意：滑动窗口中最大值
  * 难度：Hard
  * 分类：Heap
- * 思路：用双向队列，保证队列里是递增的。单调队列，好好学习一下。
+ * 思路：用双向队列，保证队列里是递减的。单调队列，好好学习一下。
  * Tips：与lc84做比较，84是递增栈
  */
 import java.util.ArrayDeque;
@@ -25,7 +25,7 @@ public class lc239 {
             return new int[]{};
         int[] res = new int[nums.length-k+1];
         int cur = 0;
-        Deque<Integer> dq = new ArrayDeque();
+        Deque<Integer> dq = new ArrayDeque();   //队列里是递减的
         for (int i = 0; i < nums.length ; i++) {
             if( !dq.isEmpty() && dq.peekFirst()<=i-k)
                 dq.removeFirst();

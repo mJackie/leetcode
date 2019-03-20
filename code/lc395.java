@@ -23,7 +23,7 @@ public class lc395 {
 
                 if( cur_uni_char==i && less_than_k_char==i) res = Math.max(res, right-left);
 
-                else if(cur_uni_char>i){    //左边推进
+                else if(cur_uni_char>i){    //左边推进。不在外边加上一个循环的话，就不知道怎么推荐左指针了。
                     while(cur_uni_char!=i){
                         map[s.charAt(left)-'a']--;
                         if(map[s.charAt(left)-'a']==0) cur_uni_char--;

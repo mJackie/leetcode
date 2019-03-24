@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /*
  * 560. Subarray Sum Equals K
- * 题意：子数组的和等于k的个数
+ * 题意：连续子数组的和等于k的个数
  * 难度：Medium
  * 分类：Array, Hash Table
  * 思路：求出累加和存在hashmap中，如果当前hashmap中存在sum-k，那么就是一个解

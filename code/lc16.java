@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 难度：Medium
  * 分类：Array, Two Pointers
  * 思路：3sum的思路，每次记下最接近的res即可
- * Tips：
+ * Tips：lc15, lc16, lc923
  */
 public class lc16 {
     public int threeSumClosest(int[] nums, int target) {

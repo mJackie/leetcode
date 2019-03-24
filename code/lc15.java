@@ -5,6 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Array, Two Pointers
  * 注意：如何避免 List 重复元素
+ * Tips：lc15, lc16, lc923
  */
 import java.util.*;
 

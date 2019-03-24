@@ -5,6 +5,7 @@ package code;
  * 难度：Easy
  * 分类：Array, Divide and Conquer, Dynamic Programming
  * 注意：分治方法如何进行merge，merge时，必须包含mid元素，因为是连续子序列
+ *      lc978
  */
 public class lc53 {
     public static void main(String[] args) {

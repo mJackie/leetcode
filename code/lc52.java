@@ -1,43 +1,35 @@
 package code;
+
+import java.util.HashSet;
 /*
- * 51. N-Queens
+ * 52. N-Queens II
  * 题意：8皇后问题
  * 难度：Hard
  * 分类：Backtracking
- * 思路：回溯+判断，注意怎么判断两个斜线方向
- * Tips：lc52
+ * 思路：和 lc51 一样，输出变为种类数，反而简单了
+ * Tips：
  */
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-
-public class lc51 {
-    StringBuilder ss = new StringBuilder();
+public class lc52 {
     HashSet<String> hs = new HashSet();
-    public List<List<String>> solveNQueens(int n) {
-        for (int i = 0; i < n-1 ; i++) {
-            ss.append(".");
-        }
-        return dfs(new ArrayList<>(), new ArrayList(), n, 0);
+    int res = 0;
+    public int totalNQueens(int n) {
+        dfs(n, 0);
+        return res;
     }
 
-    public List<List<String>> dfs(List<List<String>> res, List curr, int n, int row){
+    public void dfs(int n, int row){
         if(row==n){
-            res.add(new ArrayList<>(curr));
-            return res;
+            res++;
         }
         for (int i = 0; i < n ; i++) {
             if(isValid(row, i)){
-                curr.add(new StringBuilder(ss).insert(i,"Q").toString());
                 int a = row+i;  // row+col 作为key
                 int b = row-i;  // row-col 作为key
                 hs.add("row"+row); hs.add("col"+i); hs.add("k1"+a); hs.add("k2"+b);
-                dfs(res, curr, n, row+1);
-                curr.remove(curr.size()-1);
+                dfs(n, row+1);
                 hs.remove("row"+row); hs.remove("col"+i); hs.remove("k1"+a); hs.remove("k2"+b); //别忘了删掉
             }
         }
-        return res;
     }
 
     public boolean isValid(int row, int col){

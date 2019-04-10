@@ -9,7 +9,7 @@ import java.util.HashMap;
  * 分类：Two Pointers
  * 思路：由于本题只要求给出多少种Int值，所以不一定非要用3Sum的思路，有很多更简答的方法
  *      3种思路
- * Tips：
+ * Tips：lc15, lc16, lc923
  */
 public class lc923 {
     public int threeSumMulti(int[] A, int target) {
@@ -53,21 +53,4 @@ public class lc923 {
         return res;
     }
 
-    public int threeSumMulti3(int[] A, int target) {    //直接数学计算
-        long[] c = new long[101];
-        for (int a : A) c[a]++;
-        long res = 0;
-        for (int i = 0; i <= 100; i++)  // 题目给了值不超过100
-            for (int j = i; j <= 100; j++) {
-                int k = target - i - j;
-                if (k > 100 || k < 0) continue;
-                if (i == j && j == k)
-                    res += c[i] * (c[i] - 1) * (c[i] - 2) / 6;
-                else if (i == j && j != k)
-                    res += c[i] * (c[i] - 1) / 2 * c[k];
-                else if (j < k)
-                    res += c[i] * c[j] * c[k];
-            }
-        return (int)(res % (1e9 + 7));
-    }
 }

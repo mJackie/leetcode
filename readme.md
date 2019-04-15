@@ -226,3 +226,6 @@ LeetCode 指南
 | 923 [Java](./code/lc923.java)
 | 978 [Java](./code/lc978.java)
 | 983 [Java](./code/lc983.java)
+| 1025 [Java](./code/lc1025.java)
+| 1026 [Java](./code/lc1026.java)
+| 1027 [Java](./code/lc1027.java)

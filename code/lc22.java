@@ -12,7 +12,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class lc22 {
+public class  lc22 {
     public static void main(String[] args) {
         System.out.println(generateParenthesis2(4));
     }

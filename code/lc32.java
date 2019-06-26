@@ -40,12 +40,12 @@ public class lc32 {
     public static int longestValidParentheses2(String s) {
         //栈方法  ()(())
         Stack<Integer> st = new Stack();
-        st.add(-1);
+        st.add(-1); //栈内先入-1
         int res = 0;
         for (int i = 0; i < s.length() ; i++) {
             char ch = s.charAt(i);
             if(ch=='(')
-                st.add(i);
+                st.push(i);
             else if(ch==')'){
                 st.pop();
                 if(st.isEmpty())

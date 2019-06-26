@@ -1,7 +1,7 @@
 package code;
 /*
 * 3. Longest Substring Without Repeating Characters
-* 题意：找出字符串中没有重复子串的最大长度
+* 题意：找出字符串中没有重复字母的最大长度
 * 难度：Medium
 * 分类：Hash Table, Two Pointers, String
 * 算法：两个指针，记录没有重复字母的子串的首和尾

@@ -235,3 +235,4 @@ LeetCode 指南
 | 1025 [Java](./code/lc1025.java)
 | 1026 [Java](./code/lc1026.java)
 | 1027 [Java](./code/lc1027.java)
+| 1028 [Java](./code/lc1028.java)

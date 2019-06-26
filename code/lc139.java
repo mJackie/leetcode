@@ -20,6 +20,6 @@ public class lc139 {
                     dp[i] = true;
             }
         }
-        return dp[s.length()+1];
+        return dp[s.length()];
     }
 }

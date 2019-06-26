@@ -24,6 +24,6 @@ public class lc49 {
                 m.put(key,l);
             }
         }
-        return new ArrayList(m.values());
+        return new ArrayList(m.values());   //学下这句的语法
     }
 }

@@ -2,7 +2,7 @@ package code;
 
 /*
  * 63. Unique Paths II
- * 题意：路径数
+ * 题意：路径数，添加了障碍
  * 难度：Medium
  * 分类：Array, Dynamic Programming
  * 思路：和lc64, lc62思路一样

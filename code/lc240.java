@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Binary Search, Divide and Conquer
  * 思路：两种方法，一种O(mlg(n))，遍历每一行，每行二分查找。另一种O(m+n)，从右上角开始移动
- * Tips：
+ * Tips：lc240, lc378
  */
 public class lc240 {
     public boolean searchMatrix(int[][] matrix, int target) {

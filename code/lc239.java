@@ -27,7 +27,7 @@ public class lc239 {
         int cur = 0;
         Deque<Integer> dq = new ArrayDeque();   //队列里是递减的
         for (int i = 0; i < nums.length ; i++) {
-            if( !dq.isEmpty() && dq.peekFirst()<=i-k)
+            if( !dq.isEmpty() && dq.peekFirst()<=i-k)   //窗口长度过长了，删掉头
                 dq.removeFirst();
             while( !dq.isEmpty() && nums[dq.peekLast()]<=nums[i]){// removeLast 不是 First。  自己写的时候这写错了，如果是First的话，有些Case也能过
                 dq.removeLast();

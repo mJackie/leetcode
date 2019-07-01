@@ -29,7 +29,7 @@ public class lc127 {
                         curr_str[j] = k;
                         if(String.valueOf(curr_str).equals(endWord)) return level;
                         if(wordList.contains(String.valueOf(curr_str))){
-                            wordList.remove(String.valueOf(curr_str));
+                            wordList.remove(String.valueOf(curr_str));  //这要remove
                             qu.add(String.valueOf(curr_str));
                         }
                     }

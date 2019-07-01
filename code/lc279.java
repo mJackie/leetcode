@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Math, Dynamic Programming, Breadth-first Search
  * 思路：dp[i] = dp[i-j*j] +1
- * Tips：
+ * Tips：lc322
  */
 import java.util.Arrays;
 

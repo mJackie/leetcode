@@ -39,7 +39,7 @@ public class lc218 {
         int pre = 0;
         for (int i = 0; i < arr.length ; i++) {
             if(arr[i][1]>0){
-                pr.add(-arr[i][1]);
+                pr.add(-arr[i][1]); //默认是最小优先队列
             }else{
                 pr.remove(arr[i][1]);
             }

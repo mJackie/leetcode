@@ -21,7 +21,7 @@ public class lc227 {
             if(Character.isDigit(chs[i])){
                 num = num * 10 + chs[i]-'0';
             }
-            if( !Character.isDigit(chs[i]) || i==chs.length-1 ){    //便利到最后，即使不是符号，也要计算
+            if( !Character.isDigit(chs[i]) || i==chs.length-1 ){    //遍历到最后，即使不是符号，也要计算
                 if(sign=='+'){
                     st.push(num);
                 }

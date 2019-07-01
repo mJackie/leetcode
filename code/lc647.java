@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：String, Dynamic Programming
  * 思路：时间为N^2，用二维dp空间复杂度是N^2. 该题直接让判断是否回文，直接选择找中心字符，向两边拓展，空间为O(1)
- * Tips：
+ * Tips：lc5, lc9, lc125, lc131, lc234, lc647
  */
 public class lc647 {
     public static void main(String[] args) {

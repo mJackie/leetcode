@@ -5,7 +5,7 @@ package code;
  * 难度：Easy
  * 分类：Math
  * 思路：不转换字符串的思路就是把数字反转了以后，比较是否相等
- * Tips：
+ * Tips：lc5, lc9, lc125, lc131, lc234, lc647
  */
 public class lc9 {
     public boolean isPalindrome(int x) {

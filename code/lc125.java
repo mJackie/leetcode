@@ -6,7 +6,7 @@ package code;
  * 分类：Two Pointers, String
  * 思路：两个指针。另一种是正则表达式替换数字，字母为空格，再反转，判断是否相等。
  * Tips：记下另一种方法。第一种方法Bingo!
- *       lc234, lc5
+ *       lc5, lc9, lc125, lc131, lc234, lc647
  */
 public class lc125 {
     public static void main(String[] args) {

@@ -9,7 +9,7 @@ import java.util.List;
  * 难度：Hard
  * 分类：Divide and Conquer, Binary indexed Tree, Segment Tree, Binary Search Tree
  * 思路：两种思路，一种用二叉搜索树这类数据结构 https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76580/9ms-short-Java-BST-solution-get-answer-when-building-BST
- *      一种归并排序的思路，归并的时候统计左右交换数目。如果一个数从这个数的右边交换到左边，则+1。因为有重复数字，所以用将ndex进行排序
+ *      一种归并排序的思路，归并的时候统计左右交换数目。如果一个数从这个数的右边交换到左边，则+1。因为有重复数字，所以用将index进行排序
  *      https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76583/11ms-JAVA-solution-using-merge-sort-with-explanation
  *      再有一种复杂度稍微高点的思路，从后往前插入排序，插入的时候二分搜索
  *      https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76576/My-simple-AC-Java-Binary-Search-code

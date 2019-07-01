@@ -9,6 +9,7 @@ import java.util.Stack;
  * 分类：Dynamic Programming, String
  * 思路：两种常规方法，一是dp，每个位置记录以该位置结尾的最长长度。另一种是用栈，把位置索引入栈。
  * Tips：想到了用dp，也想到了用数组记录位置结尾的解，但没有想好如何进行更新迭代计算。把位置索引入栈的方法很典型，关注一下。
+ *      lc32, lc22, lc301
  */
 public class lc32 {
     public static void main(String[] args) {

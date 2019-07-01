@@ -6,6 +6,7 @@ package code;
  * 分类：String, Backtracking
  * 思路：回溯法的典型题目，按选优条件向前搜索，达到目标后就退回一步或返回
  * 注意：递归法别忘了两块的拼接，例如n=4时，可以由2，2拼起来作为答案
+ *      lc32, lc22, lc301
  */
 import java.util.ArrayList;
 import java.util.HashSet;

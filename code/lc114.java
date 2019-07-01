@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Tree, Depth-first Search
  * 思路：就是节点间连接换一下，理清思路就行了，类似中序遍历
- * Tips：
+ * Tips：lc426
  */
 public class lc114 {
     public class TreeNode {

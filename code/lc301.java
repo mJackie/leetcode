@@ -6,6 +6,7 @@ package code;
  * 分类：Depth-first Search, Breadth-first Search
  * 思路：先计数),如果多的话,在前边的字符里删掉一个。反转字符串,计数(
  * Tips：好难啊，里边很多细节需要注意。还有一种bfs的思路，挨个删字符，判断是否合规。
+ *      lc32, lc22, lc301
  */
 import java.util.ArrayList;
 import java.util.HashSet;

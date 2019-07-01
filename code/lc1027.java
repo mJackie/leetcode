@@ -14,7 +14,7 @@ public class lc1027 {
         int[][] dp = new int[A.length][20000];
         for (int i = 0; i < A.length ; i++) {
             for (int j = 0; j < i ; j++) {
-                int ind = A[i]-A[j]+10000;
+                int ind = A[i]-A[j]+10000;  //可能是负数，做一个偏移
                 dp[i][ind] = dp[j][ind] + 1;
                 res = Math.max(res, dp[i][ind]);
             }

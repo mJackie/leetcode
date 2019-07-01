@@ -42,7 +42,7 @@ public class lc297 {
         // Decodes your encoded data to tree.
         public TreeNode deserialize(String data) {
             Deque<String> nodes = new LinkedList<>();
-            nodes.addAll(Arrays.asList(data.split(spliter)));
+            nodes.addAll(Arrays.asList(data.split(spliter)));   //split
             return buildTree(nodes);
         }
 

@@ -8,7 +8,12 @@ import java.util.List;
  * 难度：Medium
  * 分类：Backtracking
  * 思路：典型回溯法，注意向res添加内容时要重新new一下
- * Tips：lc39
+ * Tips： lc5, lc9, lc125, lc131, lc234, lc647
+ *       lc39
+ *       判断是否为回文的方法：
+ *       1. 从中心往两边扩充，中心可能是一个字符，也可能是两个字符
+ *       2. dp，利用之前计算的结果，只判断边缘两个字符是否相等，从后往前dp
+ *       3. 翻转了以后，判断两个串是否相等
  */
 public class lc131 {
     public static void main(String[] args) {

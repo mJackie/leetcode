@@ -1,11 +1,11 @@
 package code;
 /*
- * 1025. Divisor Game
+ * 1025. Maximum Difference Between Node and Ancestor
  * 题意：父节点减子节点的绝对值最大
  * 难度：
  * 分类：
  * 思路：自己写的自下向上，返回的时候再计算。
- *      可以自顶向下的，到叶子节点计算就可以
+ *      可以自顶向下的，把路径上的最大值和最小值传到叶子节点，到叶子节点再计算
  * Tips：
  */
 public class lc1026 {
@@ -43,5 +43,16 @@ public class lc1026 {
         res[0] = Math.max(Math.max(left[0], right[0]), root.val);   //别忘了和root节点本身的值比
         res[1] = Math.min(Math.min(left[1], right[1]), root.val);
         return res;
+    }
+
+    public int maxAncestorDiff2(TreeNode root) {
+        return dfs(root, root.val, root.val);
+    }
+
+    public int dfs(TreeNode root, int mn, int mx) {
+        if (root == null) return mx - mn;
+        mx = Math.max(mx, root.val);
+        mn = Math.min(mn, root.val);
+        return Math.max(dfs(root.left, mn, mx), dfs(root.right, mn, mx));
     }
 }

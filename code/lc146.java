@@ -6,6 +6,7 @@ package code;
  * 分类：Design
  * 思路：hashmap + 双向链表。hashmap实现了O(1)的get，双向链表实现O(1)的put
  * Tips：能想到双向链表，就不难了
+ *      lc380
  */
 import java.util.HashMap;
 

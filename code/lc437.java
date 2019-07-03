@@ -13,6 +13,7 @@ import java.util.HashMap;
  *       和lc560有共同的思想，每个节点只需遍历一遍就可以了
  *       虽然是Easy题，做好也不简单
  *       lc112, lc113, lc437, lc129, lc124, lc337
+ *       lc437 lc572 一样的递归思路
  *       lc303, lc437, lc560
  */
 public class lc437 {

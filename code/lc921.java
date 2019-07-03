@@ -7,7 +7,7 @@ import java.util.Stack;
  * 难度：Medium
  * 分类：Stack, Greedy
  * 思路：匹配的都出栈，最后剩下的栈中没匹配的个数，就是需要添加的个数
- * Tips：
+ * Tips：lc301
  */
 public class lc921 {
     public int minAddToMakeValid(String S) {

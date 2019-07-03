@@ -10,7 +10,7 @@ import java.util.List;
  * 难度：Medium
  * 分类：Array, Hash Table, Design
  * 思路：List 的插入和删除都是O(1), 通过hashmap绑定来使得Get也为O(1)
- * Tips：
+ * Tips：和LRU哪个题类似 lc146
  */
 public class lc380 {
     public class RandomizedSet {

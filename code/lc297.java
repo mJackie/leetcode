@@ -10,7 +10,7 @@ import java.util.LinkedList;
  * 难度：Hard
  * 分类：Tree, Design
  * 思路：
- * Tips：
+ * Tips：lc572 序列化的应用
  */
 public class lc297 {
     public class TreeNode {

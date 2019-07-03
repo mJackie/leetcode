@@ -13,21 +13,21 @@ public class lc395 {
     public int longestSubstring(String s, int k) {
         int res = 0;
         for (int i = 1; i <= 26 ; i++) {
-            int left = 0, right = 0, cur_uni_char = 0, less_than_k_char = 0;
+            int left = 0, right = 0, cur_uni_char = 0, more_than_k_char = 0;
             int[] map = new int[26];
             while(right<s.length()){    //右边推进
                 map[s.charAt(right)-'a']++;
-                if(map[s.charAt(right)-'a']==k) less_than_k_char++;
+                if(map[s.charAt(right)-'a']==k) more_than_k_char++;
                 if(map[s.charAt(right)-'a']==1) cur_uni_char++;
                 right++;
 
-                if( cur_uni_char==i && less_than_k_char==i) res = Math.max(res, right-left);
+                if( cur_uni_char==i && more_than_k_char==i) res = Math.max(res, right-left);
 
                 else if(cur_uni_char>i){    //左边推进。不在外边加上一个循环的话，就不知道怎么推荐左指针了。
                     while(cur_uni_char!=i){
                         map[s.charAt(left)-'a']--;
                         if(map[s.charAt(left)-'a']==0) cur_uni_char--;
-                        if((map[s.charAt(left)-'a']==k-1)) less_than_k_char--;
+                        if((map[s.charAt(left)-'a']==k-1)) more_than_k_char--;
                         left++;
                     }
                 }

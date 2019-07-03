@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 /*
  * 378. Kth Smallest Element in a Sorted Matrix
- * 题意：在矩阵中搜索第k大的数，横轴和纵轴都是有序的
+ * 题意：在矩阵中搜索第k小的数，横轴和纵轴都是有序的
  * 难度：Medium
  * 分类：Binary Search, Heap
  * 思路：两种思路。 1是类似多个有序链表合并的思路，优先队列。

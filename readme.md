@@ -236,3 +236,5 @@ LeetCode 指南
 | 1026 [Java](./code/lc1026.java)
 | 1027 [Java](./code/lc1027.java)
 | 1028 [Java](./code/lc1028.java)
+| 1093 [Java](./code/lc1093.java)
+| 1094 [Java](./code/lc1094.java)

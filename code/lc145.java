@@ -35,4 +35,5 @@ public class lc145 {
         Collections.reverse(res);   //反转链表
         return res;
     }
+
 }

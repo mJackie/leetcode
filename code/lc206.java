@@ -15,24 +15,24 @@ public class lc206 {
     }
 
     public ListNode reverseList(ListNode head) {
-        ListNode newHead = null;    //头节点变成尾节点，最后要指向null
-        while (head != null) {
+        ListNode pre = null;    //头结点变尾节点，指向null
+        while(head!=null){
             ListNode next = head.next;
-            head.next = newHead;
-            newHead = head;
+            head.next = pre;
+            pre = head;
             head = next;
         }
-        return newHead;
+        return pre;
     }
 
     public ListNode reverseList2(ListNode head) {   //递归
         return reverseListInt(head, null);
     }
-    private ListNode reverseListInt(ListNode head, ListNode newHead) {
+    private ListNode reverseListInt(ListNode head, ListNode pre) {
         if (head == null)
-            return newHead;
+            return pre;
         ListNode next = head.next;
-        head.next = newHead;
+        head.next = pre;
         return reverseListInt(next, head);  //尾递归，操作已经完成，最后返回最后结果罢了
     }
 }

@@ -34,4 +34,16 @@ public class lc94 {
         }
         return res;
     }
+
+    List<Integer> res = new ArrayList();
+    public List<Integer> inorderTraversal2(TreeNode root) { //递归
+        helper(root);
+        return res;
+    }
+    public void helper(TreeNode root){
+        if(root==null) return;
+        helper(root.left);
+        res.add(root.val);
+        helper(root.right);
+    }
 }

@@ -5,7 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Stack, Tree
  * 思路：左节点依次入栈
- * Tips：和lc94中序,lc145后序一起看
+ * Tips：和lc94中序,lc145后序一起看, lc102
  */
 import java.util.ArrayList;
 import java.util.List;

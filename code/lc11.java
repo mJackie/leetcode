@@ -5,6 +5,7 @@ package code;
  * 难度：Medium
  * 分类：Array, Two Pointers
  * Tips：复杂度可以为O(N), 指针往里走, 若值也小了，则面积一定不会增大。和lc42做比较
+ *      lc11, lc42, lc84
  */
 public class lc11 {
     public static void main(String[] args) {

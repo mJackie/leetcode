@@ -39,8 +39,8 @@ public class lc322 {
     public static int coinChange2(int[] coins, int amount) {
         int max = amount + 1;
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, max);
-        dp[0] = 0;
+        Arrays.fill(dp, max);   //表示无解
+        dp[0] = 0;  //dp[0]=0 不用先把零钱设为1了
         for (int i = 1; i <= amount; i++) {
             for (int j = 0; j < coins.length; j++) {
                 if (coins[j] <= i) {
@@ -48,6 +48,6 @@ public class lc322 {
                 }
             }
         }
-        return dp[amount] > amount ? -1 : dp[amount];
+        return dp[amount] > amount ? -1 : dp[amount];   //判断一下
     }
 }

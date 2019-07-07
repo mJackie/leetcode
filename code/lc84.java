@@ -10,7 +10,7 @@ import java.util.Stack;
  * 思路：两种方法：1.用dp找到边界，再遍历一遍; 2.用栈，栈内存索引，保证栈内索引对应的高度是递增的，若减了即找到了右边界，出栈开始计算。因为栈内是递增的，左边界就是上个栈内的元素。若栈为空，左边界就是-1。
  * Tips：和lc42做比较，都可以用栈或者dp来做. 很难，栈的操作很难想到.
  *       和lc42 dp作比较 和lc32栈做比较
- *       lc85
+ *       lc11, lc42, lc84
  */
 public class lc84 {
     public static void main(String[] args) {

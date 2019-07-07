@@ -8,7 +8,7 @@ import java.util.Stack;
  * 难度：Hard
  * 分类：Array, Two Pointers, Stack
  * 思路：三种方法:1.DP先求出来每个位置的maxleft,maxright，再遍历一遍;2.两个指针，类似lc11题的思路;3.用栈数据结构;
- * Tips：
+ * Tips：lc11, lc42, lc84
  */
 public class lc42 {
     public static void main(String[] args) {

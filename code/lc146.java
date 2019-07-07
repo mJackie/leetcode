@@ -11,7 +11,7 @@ package code;
 import java.util.HashMap;
 
 public class lc146 {
-    class Node {
+    class Node {    //定义一个Node类
         int key;
         int value;
         Node pre;
@@ -25,8 +25,8 @@ public class lc146 {
     public class LRUCache {
 
         HashMap<Integer, Node> map;
-        int capicity, count;
-        Node head, tail;
+        int capicity, count;    //最大容量，当前容量
+        Node head, tail;    //头节点，尾节点
 
         public LRUCache(int capacity) {
             this.capicity = capacity;
@@ -40,7 +40,7 @@ public class lc146 {
             count = 0;
         }
 
-        public void deleteNode(Node node) {
+        public void deleteNode(Node node) { //两个方法
             node.pre.next = node.next;
             node.next.pre = node.pre;
         }

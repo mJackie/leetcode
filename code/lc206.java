@@ -6,6 +6,7 @@ package code;
  * 分类：Linked List
  * 思路：2中方法：设置一个快走一步的快指针，注意赋值操作顺序。还有一种递归的方法。
  * Tips：递归的方法有点绕，多看下
+ *      lc25, lc206
  */
 public class lc206 {
     public class ListNode {

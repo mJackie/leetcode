@@ -27,12 +27,12 @@ public class lc148 {
         }
         ListNode slow = head;
         ListNode fast = head.next;
-        while( fast.next!=null && fast.next.next!=null ){   //把链表分成两半
+        while( fast!=null && fast.next!=null ){   //把链表分成两半
             slow = slow.next;
             fast = fast.next.next;
         }
         ListNode l2 = sortList(slow.next);
-        slow.next = null;
+        slow.next = null;   //别忘了这要断开
         ListNode l1 = sortList(head);
         return mergeList(l1, l2);
     }

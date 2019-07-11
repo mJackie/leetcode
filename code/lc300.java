@@ -14,7 +14,7 @@ public class lc300 {
         if(nums.length<2)
             return nums.length;
         int[] dp = new int[nums.length]; //dp[i] 存储以nums[i]结尾的最大长度
-        Arrays.fill(dp,1);
+        Arrays.fill(dp,1);  //记住fill 1
         int res = 1;
         for (int i = 1; i < nums.length ; i++) {
             for (int j = 0; j < i ; j++) {

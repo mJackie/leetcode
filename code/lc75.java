@@ -18,7 +18,7 @@ public class lc75 {
     public static void sortColors(int[] nums) {
         int l = 0;
         int r = nums.length-1;
-        for (int i = 0; i <= r ; i++) {  // i<r而不是length, 否则又换回来了
+        for (int i = 0; i <= r ; i++) {  // i<=r而不是length, 否则又换回来了
             if(nums[i]==0 && i!=l ){    //避免自己与自己交换
                 int temp = nums[l];
                 nums[l] = nums[i];

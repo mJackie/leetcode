@@ -9,6 +9,7 @@ import java.util.*;
  * 分类：Tree
  * 思路：递归，迭代两种方法
  * Tips：注意递归时怎么返回。很经典的题目。
+ *
  */
 public class lc236 {
     public class TreeNode {
@@ -18,7 +19,7 @@ public class lc236 {
         TreeNode(int x) { val = x; }
     }
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {//递归
-        if( root==null || root==p || root==q )
+        if( root==null || root==p || root==q )  //注意这个条件
             return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);

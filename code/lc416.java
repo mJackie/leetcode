@@ -69,5 +69,21 @@ public class lc416 {
         return dp[volumn];
     }
 
+    public boolean canPartition3(int[] nums) {
+        int sum = 0;
+        for(int i: nums) sum+=i;
+        if(sum%2==1) return false;
+        sum = sum/2;
+        boolean[][] dp = new boolean[nums.length+1][sum+1];
+        for(int i =0; i<=nums.length; i++) dp[i][0]=true;   //注意赋值0
+        for(int i=1; i<=nums.length; i++){
+            for(int j=1; j<=sum; j++){
+                dp[i][j] = dp[i-1][j];
+                if(j>=nums[i-1]) dp[i][j]= dp[i][j] || dp[i-1][j-nums[i-1]];   //注意判断index是否合法
+            }
+        }
+        return dp[nums.length][sum];
+    }
+
 
 }

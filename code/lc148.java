@@ -25,7 +25,7 @@ public class lc148 {
         if( head==null || head.next == null ){
             return head;
         }
-        ListNode slow = head;
+        ListNode slow = head;   //记一下
         ListNode fast = head.next;
         while( fast!=null && fast.next!=null ){   //把链表分成两半
             slow = slow.next;

@@ -23,7 +23,7 @@ public class lc207 {
         for (int i = 0; i < prerequisites.length ; i++) {
             int node1 = prerequisites[i][0];
             int node2 = prerequisites[i][1];
-            graph[node2][node1] = 1;
+            graph[node2][node1] = 1;    //存下邻接矩阵，方便后续查找是否有边
             indegree[node1]++;  //存下入度，入度为0时，表示该课程可以修
         }
         Stack<Integer> st = new Stack();

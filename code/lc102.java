@@ -23,7 +23,7 @@ public class lc102 {
         if(root==null)
             return res;
         qu.add(root);
-        while(!qu.isEmpty()){
+        while(!qu.isEmpty()){   //两个while
             int size = qu.size();
             List<Integer> temp = new ArrayList<>();
             while(size>0){

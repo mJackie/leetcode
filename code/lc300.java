@@ -6,6 +6,7 @@ package code;
  * 分类：Binary Search, Dynamic Programming
  * 思路：基本的思路是dp[i]记录以nums[i]结尾的最长长度，每次遍历 dp[i] 得到dp[i+1]，复杂度为O(n^2)。最优的解法是O(nlgn)，dp[i]是递增的数组，每次插入时二分查找是lgn。
  * Tips：经典题目，记一下
+ *      lc132
  */
 import java.util.Arrays;
 

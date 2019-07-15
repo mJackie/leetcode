@@ -32,4 +32,23 @@ public class lc142 {
         }
         return null;
     }
+
+    public ListNode detectCycle2(ListNode head) {
+        if(head==null||head.next==null) return null;
+        ListNode slow = head;
+        ListNode fast = head.next;
+        while(fast!=null&&fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow==fast){
+                slow = slow.next;
+                while(head!=slow){
+                    head = head.next;
+                    slow = slow.next;
+                }
+                return slow;
+            }
+        }
+        return null;
+    }
 }

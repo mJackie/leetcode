@@ -20,20 +20,20 @@ public class lc113 {
         }
     }
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
-        List<List<Integer>> res = new ArrayList<>();
-        helper(res, root, sum, 0, new ArrayList<>());
+        List<List<Integer>> res = new ArrayList();
+        helper(res, new ArrayList(), root, sum);
         return res;
     }
-    public void helper(List<List<Integer>> res, TreeNode root, int sum, int curr, List<Integer> curr_ls) {
+    public void helper(List<List<Integer>> res, List<Integer> cur, TreeNode root, int sum){
         if(root==null) return;
-        curr_ls.add(root.val);
-        if(curr+root.val==sum && root.left==null && root.right==null) { //到叶子节点
-            res.add(new ArrayList<>(curr_ls));
-            curr_ls.remove(curr_ls.size()-1);
-            return;
+        cur.add(root.val);
+        if(root.left==null&&root.right==null&&root.val==sum){   //到叶子节点
+            res.add(new ArrayList(cur));
+        }else{
+            helper(res, cur, root.left, sum-root.val);
+            helper(res, cur, root.right, sum-root.val);
         }
-        helper(res, root.left, sum, curr+root.val, curr_ls);
-        helper(res, root.right, sum, curr+root.val, curr_ls);
-        curr_ls.remove(curr_ls.size()-1);
+        cur.remove(cur.size()-1);
+        return;
     }
 }

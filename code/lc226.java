@@ -19,8 +19,7 @@ public class lc226 {
     }
     public TreeNode invertTree(TreeNode root) {
         //递归
-        if(root==null)
-            return null;
+        if(root==null) return null;
         TreeNode temp = root.left;
         root.left = root.right;
         root.right = temp;

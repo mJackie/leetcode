@@ -28,7 +28,7 @@ public class lc978 {
 
     public int maxTurbulenceSize2(int[] A) {
         int[] arr = new int[A.length-1];
-        for(int i=1; i<A.length; i++){
+        for(int i=1; i<A.length; i++){  //转换成0,1数组
             if(A[i]==A[i-1]) arr[i-1] = 0;
             else if(A[i]>A[i-1]) arr[i-1] = 1;
             else arr[i-1] = -1;

@@ -28,7 +28,7 @@ public class lc32 {
             else{
                 if(s.charAt(i-2)=='('){ // 这种情况：(())()
                     dp[i] = dp[i-2]+2;
-                }else if(i-2-dp[i-1]>=0 && s.charAt(i-2-dp[i-1])=='('){ // 这种情况：()(())
+                }else if(i-2-dp[i-1]>=0 && s.charAt(i-2-dp[i-1])=='('){ // 这种情况：()(()) , 第一个判断是判断索引是否合法
                     dp[i] = dp[i-1] + dp[i-2-dp[i-1]]+2;
                 }
             }
@@ -49,7 +49,7 @@ public class lc32 {
                 st.push(i);
             else if(ch==')'){
                 st.pop();
-                if(st.isEmpty())
+                if(st.isEmpty())    //截断一下
                     st.push(i);
                 res = Math.max(res,i-st.peek());
             }

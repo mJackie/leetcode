@@ -11,6 +11,7 @@ import java.util.HashSet;
  *      0，1背包问题，递推比较简单，所以空间可以压缩成一维
  *      自己想的思路其实和压缩后的0，1背包类似，但没想到该问题可以抽象为0，1背包
  *       dp[i][j] = dp[i-1][j] || dp[i-1][j-nums[i]]
+ *       i表示数组长度，j表示求和为j
  * Tips：lc416, lc494
  */
 public class lc416 {

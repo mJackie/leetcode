@@ -27,14 +27,14 @@ public class lc84 {
             if( st.size()==0 || h>heights[st.peek()] ){ //递增入栈，保证栈内索引对应的Height递增
                 st.push(i);
             }else{
-                int n = st.pop();
+                int n = st.pop(); //计算该位置height高度的矩形
                 int left;
                 if(st.isEmpty())
                     left = -1;  //若为空，则到最左边
                 else
                     left = st.peek();
-                res = Math.max(res, heights[n] * (i-left-1)); //i之前的，要-1
-                i--;
+                res = Math.max(res, heights[n] * (i-left-1)); //i之前的，要-1; 注意是height[n], 不是height[i]
+                i--;    //注意i--，相当于循环出栈，总体复杂度还是O(n)，因为栈最大是heights.len
             }
         }
         return res;

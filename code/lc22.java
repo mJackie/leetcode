@@ -1,7 +1,7 @@
 package code;
 /*
  * 22. Generate Parentheses
- * 题意：正确括号组合的
+ * 题意：正确括号组合
  * 难度：Medium
  * 分类：String, Backtracking
  * 思路：回溯法的典型题目，按选优条件向前搜索，达到目标后就退回一步或返回

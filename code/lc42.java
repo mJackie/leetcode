@@ -52,7 +52,7 @@ public class lc42 {
         int i = 0, maxWater = 0, maxBotWater = 0;
         while (i < A.length){
             if (s.isEmpty() || A[i]<=A[s.peek()]){
-                s.push(i++);
+                s.push(i++);    //递减栈
             }
             else {
                 int bot = s.pop();

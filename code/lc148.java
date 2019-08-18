@@ -75,9 +75,9 @@ public class lc148 {
 
     public ListNode partion(ListNode head, ListNode end) {
         ListNode p1 = head, p2 = head.next;
-
+        //p1指的是小于pivot的索引
         //走到末尾才停
-        while (p2 != end) { //p1与p2间都是大于pivot的数
+        while (p2 != end) { //head到p1间是小于pivot的数，p1与p2间都是大于pivot的数
             if (p2.val < head.val) {    //lc922 类似的思想， 把小于的值放到该放的位置上
                 p1 = p1.next;
 

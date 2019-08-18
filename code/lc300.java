@@ -38,10 +38,8 @@ public class lc300 {
             int right = size;
             while(left!=right){ //得到要插入的位置
                 int mid = (left+right)/2;
-                if(dp[mid]<nums[i])
-                    left = mid+1;
-                else
-                    right = mid;
+                if(dp[mid]<nums[i]) left = mid+1;   //这是+1记住，不能到else去-1, 会死循环。+1就超出边界，后续用left赋值
+                else right = mid;
             }
             dp[left] = nums[i];
             if(left==size) size++;

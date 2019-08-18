@@ -37,4 +37,17 @@ public class lc105 {
         return tn;      //记住函数的返回值的设置，返回Node，递归的构造子树
     }
 
+    public TreeNode buildTree2(int[] preorder, int[] inorder) {
+        return helper(preorder, inorder, 0, 0, preorder.length-1);
+    }
+    public TreeNode helper(int[] preorder, int[] inorder, int cur, int left, int right){
+        if(left>right) return null;
+        TreeNode tn = new TreeNode(preorder[cur]);
+        int i = left;
+        for(; i<=right; i++) if(inorder[i]==preorder[cur]) break;
+        tn.left = helper(preorder, inorder, cur+1, left, i-1);
+        tn.right = helper(preorder, inorder, cur+i-left+1, i+1, right);
+        return tn;
+    }
+
 }

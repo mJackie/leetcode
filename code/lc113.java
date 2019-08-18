@@ -33,7 +33,7 @@ public class lc113 {
             helper(res, cur, root.left, sum-root.val);
             helper(res, cur, root.right, sum-root.val);
         }
-        cur.remove(cur.size()-1);
+        cur.remove(cur.size()-1);   //注意是去掉最后一个，传的是索引。传递对象的话，序列可能会变。
         return;
     }
 }

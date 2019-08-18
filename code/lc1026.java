@@ -1,6 +1,6 @@
 package code;
 /*
- * 1025. Maximum Difference Between Node and Ancestor
+ * 1026. Maximum Difference Between Node and Ancestor
  * 题意：父节点减子节点的绝对值最大
  * 难度：
  * 分类：

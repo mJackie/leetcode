@@ -25,7 +25,7 @@ public class lc239 {
             return new int[]{};
         int[] res = new int[nums.length-k+1];
         int cur = 0;
-        Deque<Integer> dq = new ArrayDeque();   //队列里是递减的
+        Deque<Integer> dq = new ArrayDeque();   //队列里是递减的，存的仍然是下标
         for (int i = 0; i < nums.length ; i++) {
             if( !dq.isEmpty() && dq.peekFirst()<=i-k)   //窗口长度过长了，删掉头
                 dq.removeFirst();

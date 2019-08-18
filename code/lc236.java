@@ -23,10 +23,8 @@ public class lc236 {
             return root;
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if( left!=null && right!=null )     //回溯返回。哪边不为空，返回哪边，否则返回自己。
-            return root;
-        else if(left!=null)
-            return left;
+        if( left!=null && right!=null ) return root;     //回溯返回。哪边不为空，返回哪边，否则返回自己。
+        else if(left!=null) return left;
         else return right;
     }
 

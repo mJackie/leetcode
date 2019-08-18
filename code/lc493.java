@@ -6,11 +6,11 @@ import java.util.Arrays;
  * 493. Reverse Pairs
  * 题意：逆序对
  * 难度：Hard
- * 分类：
+ * 分类：Binary Search, Divide and Conquer, Sort, Binary Indexed Tree, Segment Tree
  * 思路：归并排序的思路 或者 树相关的数据结构
  *      排序前先count
  *      负数怎么解决？ 不用考虑，因为排序前先count
- * Tips：
+ * Tips：lc315
  */
 public class lc493 {
     public static void main(String[] args) {

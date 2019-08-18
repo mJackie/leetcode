@@ -25,7 +25,7 @@ public class lc384 {
         public int[] shuffle() {
             int[] rand = new int[nums.length];
             for (int i = 0; i < nums.length; i++){
-                int r = (int) (Math.random() * (i+1));
+                int r = (int) (Math.random() * (i+1));  // +1是因为下标从0开始
                 rand[i] = rand[r];
                 rand[r] = nums[i];
             }

@@ -14,6 +14,7 @@ import java.util.List;
  *      再有一种复杂度稍微高点的思路，从后往前插入排序，插入的时候二分搜索，插入其实是不行的，因为插入操作以后还要移动value位置，又是一个O(N)的操作
  *      https://leetcode.com/problems/count-of-smaller-numbers-after-self/discuss/76576/My-simple-AC-Java-Binary-Search-code
  * Tips：好难呀，我日！
+ *       lc493
  */
 public class lc315 {
     class TreeNode{

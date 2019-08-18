@@ -20,7 +20,7 @@ public class lc324 {
 
         for (int i = 0, j = 0, k = n - 1; j <= k;) {    // <medium的放左边， >在右边
             if (copy[j] < median) {
-                swap(copy, i++, j++);
+                swap(copy, j++, i++);
             } else if (copy[j] > median) {
                 swap(copy, j, k--);
             } else {
@@ -32,27 +32,13 @@ public class lc324 {
         for (int i = n - 1, j = 1; i >= m; i--, j += 2) nums[j] = copy[i];
     }
 
-
-
-    private int getMiddle(int[] nums, int l, int r) {
-        int i = l;
-
-        for (int j = l + 1; j <= r; j++) {
-            if (nums[j] < nums[l]) swap(nums, ++i, j);
-        }
-
-        swap(nums, l, i);
-        return i;
-    }
-
     private void swap(int[] nums, int i, int j) {
         int t = nums[i];
         nums[i] = nums[j];
         nums[j] = t;
     }
 
-
-    public static int findMedium(int[] nums, int left, int right, int k){
+    public int findMedium(int[] nums, int left, int right, int k){
         int cur = nums[left];
         int l = left;
         int r = right;
@@ -69,9 +55,5 @@ public class lc324 {
         if(left==k-1) return nums[left];
         else if(left>=k) return findMedium(nums, l, right-1, k);
         else return findMedium(nums, right+1, r, k);
-    }
-
-    public static int newIndex(int index, int n) {
-        return (1 + 2*index) % (n | 1);
     }
 }

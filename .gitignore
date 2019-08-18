@@ -1,4 +1,5 @@
 .DS_Store
 */.DS_Store
-/kickstart/*
+kickstart/*
 test.java
+interview/*

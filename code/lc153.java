@@ -16,7 +16,7 @@ public class lc153 {
             int mid = (left+right)/2;
             if(nums[mid]<nums[right]){
                 right = mid;    //这不加1
-            }else if(nums[mid]>nums[right]){
+            }else{
                 left = mid+1;
             }
         }

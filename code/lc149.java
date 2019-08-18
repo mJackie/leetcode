@@ -20,7 +20,7 @@ public class lc149 {
     public int maxPoints(Point[] points) {
         if(points.length<=2) return points.length;
         int res = 0;
-        for (int i = 0; i < points.length-1 ; i++) {
+        for (int i = 0; i < points.length-1 ; i++) {//先固定一个点，再根据斜率进行记录就行了
             HashMap<Integer, HashMap<Integer, Integer>> hm = new HashMap<>();
             int overlap = 1;
             int max = 0;

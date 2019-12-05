@@ -216,6 +216,7 @@ LeetCode 指南
 | 493 [Java](./code/lc493.java)
 | 494 [Java](./code/lc494.java)
 | 538 [Java](./code/lc538.java)
+| 542 [Java](./code/lc542.java)
 | 543 [Java](./code/lc543.java)
 | 559 [Java](./code/lc559.java)
 | 560 [Java](./code/lc543.java)

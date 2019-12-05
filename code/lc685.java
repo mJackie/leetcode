@@ -7,7 +7,7 @@ package code;
  * 思路：要把问题想清楚
  *      判断是否有某个节点父节点有两个, 记为e1, e2
  *      再判断是否有环
- *      4中情况，分别想清楚返回什么
+ *      4种情况，分别想清楚返回什么
  *      自己没想清楚两种情况的交叉，以为判断完第一步就可直接返回
  *      如何判断有环，可以利用并查集的思想
  * Tips：https://leetcode.com/problems/redundant-connection-ii/discuss/108045/C%2B%2BJava-Union-Find-with-explanation-O(n)

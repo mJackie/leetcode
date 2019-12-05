@@ -39,7 +39,6 @@ public class lc324 {
     }
 
     public int findMedium(int[] nums, int left, int right, int k){
-        int cur = nums[left];
         int l = left;
         int r = right;
         while(left<right){

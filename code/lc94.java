@@ -20,8 +20,7 @@ public class lc94 {
     }
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        if(root==null)
-            return res;
+        if(root==null) return res;
         Stack<TreeNode> st = new Stack();
         while( !st.isEmpty() || root!=null ) {      //注意停止条件
             while (root != null) {

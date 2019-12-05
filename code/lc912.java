@@ -10,7 +10,7 @@ package code;
  */
 public class lc912 {
     public static void main(String[] args) {
-        int[] arr = sortArray2(new int[]{5,2,3,1});
+        int[] arr = sortArray3(new int[]{5,2,3,1});
         for(int i: arr){
             System.out.println(i);
         }
@@ -80,7 +80,7 @@ public class lc912 {
     }
 
     //堆排
-    public int[] sortArray3(int[] nums) {
+    public static int[] sortArray3(int[] nums) {
         //建堆
         int pos = nums.length/2;
         while(pos>=0){
@@ -100,7 +100,7 @@ public class lc912 {
         return nums;
     }
 
-    public void AdjustTree(int[] nums, int len, int pos){   //调整堆
+    public static void AdjustTree(int[] nums, int len, int pos){   //调整堆
         int pos_exchange = pos*2+1;
         while(pos_exchange<=len){   //left
             if(pos_exchange+1<=len&&nums[pos_exchange+1]>nums[pos_exchange]){   //比较左右节点，挑出来大的

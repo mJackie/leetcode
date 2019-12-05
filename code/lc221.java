@@ -13,8 +13,7 @@ public class lc221 {
         System.out.println(maximalSquare(matrix));
     }
     public static int maximalSquare(char[][] matrix) {
-        if(matrix.length==0)
-            return 0;
+        if(matrix.length==0) return 0;
         int[][] dp = new int[matrix.length][matrix[0].length];
         int max = 0;
         for (int i = 0; i < matrix.length ; i++) {

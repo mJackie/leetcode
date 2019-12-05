@@ -20,8 +20,7 @@ public class lc39 {
     }
     public static List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
-        if(candidates.length==0||target==0)
-            return res;
+        if(candidates.length==0||target==0) return res;
         List<Integer> l = new ArrayList<Integer>();
         backtracking(res,candidates,target,l,0,0);
         return res;

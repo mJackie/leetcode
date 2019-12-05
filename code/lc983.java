@@ -7,7 +7,7 @@ package code;
  * 思路：猛一看题，感觉很难
  *      想了以后，会发现就是典型的数组dp，难的地方主要在于数组不代表每天，如何把days中的天全部覆盖到
  *      方法是将days转换为一个365长的arr，代表每一天
- *      如果这一天不在days中，则 dp[i] = dp[i-1]， 否则 dp[i] = min(d p[i-1]+cost , dp[i-2]+cost ,dp[i-7]+cost )
+ *      如果这一天不在days中，则 dp[i] = dp[i-1]， 否则 dp[i] = min(dp[i-1]+cost , dp[i-2]+cost ,dp[i-7]+cost )
  * Tips：
  */
 public class lc983 {

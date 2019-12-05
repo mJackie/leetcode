@@ -20,8 +20,7 @@ public class lc145 {
     }
     public List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> res = new ArrayList();
-        if(root==null)
-            return res;
+        if(root==null) return res;
         Stack<TreeNode> st = new Stack();
         while(!st.isEmpty()||root!=null){
             while(root!=null) {

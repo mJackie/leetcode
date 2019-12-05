@@ -6,10 +6,14 @@ package code;
  * 分类：Array
  * 思路：从后往前找第一个变小的数x，从后往前找出比第一个x大的数，交换，再把之后的数逆序即可
  * Tips：很典型的排列组合题，思路方法记忆一下。注意比较时是否有=。
+ *  https://leetcode.com/problems/next-permutation/solution/
+ *
+ *  1584 76531
+ *  1585 13467
  */
 public class lc31 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
+        int[] nums = {1,5,8,4,7,6,5,3,1};
         nextPermutation(nums);
         for (int i:nums){
             System.out.println(i);
@@ -25,7 +29,7 @@ public class lc31 {
         }
         ptr--;
         if(ptr!=-1){
-            //从后往前，找比
+            //从后往前找出比第一个x大的数
             int val = nums[ptr];
             int ptr2 = nums.length-1;
             while(ptr2>ptr){

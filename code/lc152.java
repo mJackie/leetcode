@@ -19,7 +19,7 @@ public class lc152 {
                 max = Math.max(nums[i],nums[i]*max);
                 min = Math.min(nums[i],nums[i]*min);
             }else{
-                int temp = max; //注意maxh会被替换，先保存下
+                int temp = max; //注意max会被替换，先保存下
                 max = Math.max(nums[i],nums[i]*min);
                 min = Math.min(nums[i],nums[i]*temp);
             }

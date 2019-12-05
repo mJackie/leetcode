@@ -6,6 +6,7 @@ package code;
  * 分类：Dynamic Programming
  * 思路：和lc279一样的思路，注意下没解的情况
  * Tips：不用Set, 加一个dp[0]=0，可以直接递归出结果
+ *      dp[i] 表示组合成总值i的最少零钱数
  */
 import java.util.Arrays;
 import java.util.HashSet;

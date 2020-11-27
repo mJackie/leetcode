@@ -1,0 +1,21 @@
+	public static int distinctSubseqII(String S) {
+		int[] dp=new int[S.length()+1];
+		int[] lastSeen=new int[26];
+		dp[0]=1;
+		int mod=(int)1e9+7;
+
+		for(int i=1;i<dp.length();i++){
+			dp[i] = (dp[i-1] * 2) % mod;
+			
+			int idx=S.charAt(i-1)-'a';
+			if(lastSeen[idx]!=0)
+				dp[i] -= dp[lastSeen[idx]-1];
+			
+				dp[i]%=mod;
+			lastSeen[idx]=i;
+		}
+
+		int ans = --dp[S.length()];
+		if(ans<0) ans+=mod;
+		return ans;
+	}
